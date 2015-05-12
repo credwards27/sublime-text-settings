@@ -1,0 +1,28 @@
+{
+	"color_scheme": "Packages/Base16 Color Schemes/base16-twilight.dark.tmTheme",
+	
+	// Behavior
+	"translate_tabs_to_spaces": false,
+	
+	// Layout
+	"draw_centered": false,
+	"word_wrap": false,
+	"rulers": [
+		80,
+		100
+	],
+
+	// Line
+	"line_numbers": true,
+	"line_padding_top": 0,
+	"line_padding_bottom": 0,
+
+	// Caret
+	"caret_style": "blink",
+	"caret_extra_top": 0,
+	"caret_extra_bottom": 0,
+	
+	// Automatically switches list bullet when indenting blank list item with
+	// <Tab>.
+	"mde.list_indent_auto_switch_bullet": false
+}

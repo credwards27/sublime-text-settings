@@ -1,0 +1,15 @@
+{
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"Base16 Color Schemes",
+		"MarkdownEditing",
+		"Package Control",
+		"SFTP",
+		"SideBarEnhancements",
+		"Theme - Soda",
+		"TrailingSpaces"
+	]
+}
