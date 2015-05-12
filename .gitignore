@@ -1,0 +1,11 @@
+# Default ignore
+*
+!*/
+!.gitignore
+!README.md
+
+# Whitelist configuration and theme files
+!/Packages/Color\ Scheme\ -\ User/*
+!/Packages/User/*.sublime-settings
+!/Packages/User/*.sublime-keymap
+!/Packages/User/*.sublime-snippet
