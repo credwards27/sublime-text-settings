@@ -1,0 +1,53 @@
+<snippet>
+	<content><![CDATA[
+/* class.js
+	
+	Description of class
+*/
+
+/* Constructor for Class object
+*/
+function Class() {
+	// Default parameters
+	
+	/*
+	 * PRIVATE VARIABLES
+	*/
+	
+	// Reference to self
+	var mSelf = this;
+	
+	/*
+	 * PUBLIC VARIABLES
+	*/
+	
+	/*
+	 * PRIVILEGED FUNCTIONS
+	*/
+	
+	/*
+	 * PRIVATE FUNCTIONS
+	*/
+	
+	// Initializer
+	(function()
+	{
+	})();
+}
+
+/*
+ * STATIC FUNCTIONS
+*/
+
+/*
+ * STATIC INITIALIZERS
+*/
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>///js-class</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.js, text.html, text.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>JS Class Template</description>
+</snippet>
