@@ -6,4 +6,4 @@
 !/Packages/Color\ Scheme\ -\ User/*
 !/Packages/User/*.sublime-settings
 !/Packages/User/*.sublime-keymap
-!/Packages/User/*.sublime-snippet
+!/Packages/User/Snippets/**/*.sublime-snippet

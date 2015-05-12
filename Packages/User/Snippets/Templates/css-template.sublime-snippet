@@ -1,0 +1,24 @@
+<snippet>
+	<content><![CDATA[
+@charset "UTF-8";
+
+/* meta */
+
+body {
+	margin: 0;
+}
+body * {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+/* layout */
+
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>///css</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.css</scope>
+	<description>CSS template</description>
+</snippet>

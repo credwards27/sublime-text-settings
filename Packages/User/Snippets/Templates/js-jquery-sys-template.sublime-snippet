@@ -1,0 +1,71 @@
+<snippet>
+	<content><![CDATA[
+/* sysName.js
+	
+	Description of self-contained jQuery system.
+	
+	Requires jQuery x.x.x or higher.
+	
+	Version 0.0.1
+*/
+
+(function(w) {
+
+"use strict";
+
+/* Global system controller.
+	\$ - Localized reference active jQuery instance at script load time.
+*/
+var sysName = sysName || (function(\$) {
+	// Create system instance
+	var sys = function(args) { return new sys.fn.init(args); };
+	
+	// Create system controller prototype (and set alias)
+	sys.fn = sys.prototype = {};
+	
+	/*
+	 * GLOBAL SYSTEM OBJECTS AND VARIABLES
+	*/
+	
+	// Collection of global objects and variables for the system
+	sys.fn.g = {};
+	
+	/*
+	 * STATIC PROTOTYPE FUNCTIONS
+	*/
+	
+	/* Default initializer function
+		args - Arguments
+	*/
+	sys.fn.init = function(args) {
+		return this;
+	};
+	
+	/*
+	 * SYSTEM CLASSES
+	*/
+	
+	// Collection of object classes for the system
+	sys.fn.c = {};
+	
+	/*
+	 * SYSTEM INITIALIZERS
+	*/
+	
+	// Set system object prototype
+	sys.fn.init.prototype = sys.fn;
+	
+	// Return the system instance
+	return sys;
+})(jQuery);
+
+})(this);
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>///js-jq-sys</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.js</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>JS jQuery self-contained system template</description>
+</snippet>

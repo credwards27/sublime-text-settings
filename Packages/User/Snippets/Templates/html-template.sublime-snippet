@@ -1,0 +1,21 @@
+<snippet>
+	<content><![CDATA[
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>${1:Untitled}</title>
+</head>
+
+<body>
+</body>
+</html>
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>///html</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>text.html, text.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>HTML template</description>
+</snippet>
