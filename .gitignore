@@ -1,5 +1,5 @@
 # Default ignore
-/Packages/**/*
+/Packages/**
 !/Packages/**/
 
 # Whitelist configuration and theme files
@@ -8,3 +8,6 @@
 !/Packages/User/*.sublime-theme
 !/Packages/User/*.sublime-keymap
 !/Packages/User/Snippets/**/*.sublime-snippet
+
+# Config file whitelist (for files that are commonly ignored globally)
+!sftp-config.json
