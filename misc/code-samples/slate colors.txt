@@ -1,0 +1,29 @@
+<!----------------------------------------
+		
+		Color Definitions
+		
+		foreground gray - BCBCBC
+		
+		background gray - 222222
+		
+		comment gray - 505050
+		
+		blue - 439FEE
+		
+		red - E0575B
+		
+		yellow - E0E26D
+		
+		green - 95EAA6
+		
+		orange - D97741
+		
+		purple - A376CD
+		
+		regex light blue - 86ACE5
+		
+		entity pink - B88288
+		
+		tan - E1B47D
+		
+	----------------------------------------->

@@ -1,0 +1,25 @@
+body {
+	width: 28px;
+	margin: 0 auto !important;
+}
+
+a:hover {
+	content: "";
+}
+
+#id {
+}
+
+.class {
+}
+
+@media screen and (max-width: 768px) {
+	html {
+		font-family: "Times New Roman", serif;
+	}
+}
+
+@font-face {
+}
+
+@import url(/file/index.css);
