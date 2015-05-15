@@ -2,10 +2,10 @@
 	<content><![CDATA[
 /* class.js
 	
-	Description of class
+	Description of class.
 */
 
-/* Constructor for Class object
+/* Constructor for Class object.
 */
 function Class() {
 	// Default parameters
@@ -14,7 +14,7 @@ function Class() {
 	 * PRIVATE VARIABLES
 	*/
 	
-	// Reference to self
+	// Reference to self.
 	var mSelf = this;
 	
 	/*

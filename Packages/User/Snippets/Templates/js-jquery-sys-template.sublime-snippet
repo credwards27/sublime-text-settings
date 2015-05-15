@@ -27,15 +27,15 @@ var sysName = sysName || (function(\$) {
 	 * GLOBAL SYSTEM OBJECTS AND VARIABLES
 	*/
 	
-	// Collection of global objects and variables for the system
+	// Collection of global objects and variables for the system.
 	sys.fn.g = {};
 	
 	/*
 	 * STATIC PROTOTYPE FUNCTIONS
 	*/
 	
-	/* Default initializer function
-		args - Arguments
+	/* Default initializer function.
+		args - Arguments.
 	*/
 	sys.fn.init = function(args) {
 		return this;
@@ -45,7 +45,7 @@ var sysName = sysName || (function(\$) {
 	 * SYSTEM CLASSES
 	*/
 	
-	// Collection of object classes for the system
+	// Collection of object classes for the system.
 	sys.fn.c = {};
 	
 	/*
