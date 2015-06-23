@@ -3,7 +3,7 @@
 	"bold_folder_labels": true,
 	"caret_style": "blink",
 	"close_windows_when_empty": false,
-	"color_scheme": "Packages/Color Scheme - User/base16-twilight.dark.tmTheme",
+	"color_scheme": "Packages/Color Scheme - User-Sync/base16-twilight.dark.tmTheme",
 	"default_line_ending": "unix",
 	"drag_text": false,
 	"enable_tab_scrolling": false,
