@@ -1,0 +1,17 @@
+<snippet>
+	<content><![CDATA[
+/**
+ * ${1}
+ *
+ * @abstract
+ * @access ${2:public}
+ */
+abstract ${2} function ${4:functionName}(${5:\$param});
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>///abfunc</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.php</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>PHP Empty Function</description>
+</snippet>
