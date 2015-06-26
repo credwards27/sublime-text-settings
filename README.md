@@ -13,6 +13,8 @@ The following packages should be installed:
 - TrailingSpaces
 - Base16 Color Schemes
 - Theme - Soda
+- LESS
+- Syntax Highlighting for SASS
 
 ## Usage
 
