@@ -46,7 +46,7 @@ function Class() {
 	<!-- Optional: Tab trigger to activate the snippet -->
 	<tabTrigger>///class</tabTrigger>
 	<!-- Optional: Scope the tab trigger will be active in -->
-	<scope>source.js, source.embedded.js.html</scope>
+	<scope>source.js</scope>
 	<!-- Optional: Description to show in the menu -->
 	<description>JS Class Template</description>
 </snippet>
