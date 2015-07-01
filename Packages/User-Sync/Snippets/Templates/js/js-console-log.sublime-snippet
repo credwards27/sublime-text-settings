@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+console.log(${1});
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>///cl</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.js, source.embedded.js.html</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>JS Console Log</description>
+</snippet>
