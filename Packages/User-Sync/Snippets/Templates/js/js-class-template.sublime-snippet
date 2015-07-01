@@ -1,13 +1,13 @@
 <snippet>
 	<content><![CDATA[
-/* class.js
+/* ${1:myClass}.js
 	
-	Description of class.
+	${2:Description of class.}
 */
 
-/* Constructor for Class object.
+/* Constructor for ${3:MyClass} object.
 */
-function Class() {
+function ${3:MyClass}() {
 	// Default parameters
 	
 	/*

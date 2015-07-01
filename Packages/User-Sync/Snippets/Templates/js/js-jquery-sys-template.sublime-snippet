@@ -1,10 +1,10 @@
 <snippet>
 	<content><![CDATA[
-/* sysName.js
+/* ${1:mySystem}.js
 	
-	Description of self-contained jQuery system.
+	${2:Description of self-contained jQuery system.}
 	
-	Requires jQuery x.x.x or higher.
+	Requires jQuery ${3:x.x.x} or higher.
 	
 	Version 0.0.1
 */
@@ -16,7 +16,7 @@
 /* Global system controller.
 	\$ - Localized reference active jQuery instance at script load time.
 */
-var sysName = sysName || (function(\$) {
+var ${1:mySystem} = ${1:mySystem} || (function(\$) {
 	// Create system instance
 	var sys = function(args) { return new sys.fn.init(args); };
 	
