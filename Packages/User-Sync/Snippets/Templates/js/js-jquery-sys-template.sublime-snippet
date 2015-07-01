@@ -57,7 +57,7 @@ var ${1:mySystem} = ${1:mySystem} || (function(\$) {
 	
 	// Return the system instance
 	return sys;
-})(jQuery);
+})(env.jQuery);
 
 })(this);
 ]]></content>
