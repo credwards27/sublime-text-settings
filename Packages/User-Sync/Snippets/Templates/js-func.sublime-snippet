@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+/* ${1:Description of function.}
+*/
+function ${2:myFunction}(${3:param}) {
+}
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>///func</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.js, source.embedded.js.html</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>JS Function Template</description>
+</snippet>
