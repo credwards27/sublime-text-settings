@@ -63,7 +63,7 @@ var sysName = sysName || (function(\$) {
 
 ]]></content>
 	<!-- Optional: Tab trigger to activate the snippet -->
-	<tabTrigger>///js-jq-sys</tabTrigger>
+	<tabTrigger>///jqsys</tabTrigger>
 	<!-- Optional: Scope the tab trigger will be active in -->
 	<scope>source.js</scope>
 	<!-- Optional: Description to show in the menu -->
