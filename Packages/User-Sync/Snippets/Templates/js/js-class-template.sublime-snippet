@@ -41,7 +41,6 @@ function Class() {
 /*
  * STATIC INITIALIZERS
 */
-
 ]]></content>
 	<!-- Optional: Tab trigger to activate the snippet -->
 	<tabTrigger>///class</tabTrigger>
