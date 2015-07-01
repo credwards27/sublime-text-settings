@@ -1,8 +1,8 @@
 <snippet>
 	<content><![CDATA[
-/* fileName.js
+/* ${1:myFile}.js
 	
-	Description of file.
+	${2:Description of file.}
 */
 
 (function() {
