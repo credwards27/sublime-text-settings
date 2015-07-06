@@ -6,7 +6,7 @@
 !/Packages/Color\ Scheme\ -\ User-Sync/*
 !/Packages/User-Sync/*.sublime-settings
 !/Packages/User-Sync/*.sublime-theme
-!/Packages/User-Sync/*.sublime-keymap
+!/Packages/User-Sync/Key\ Mapping/*.sublime-keymap
 !/Packages/User-Sync/Snippets/**/*.sublime-snippet
 
 # Config file whitelist (for files that are commonly ignored globally)

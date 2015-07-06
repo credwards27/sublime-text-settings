@@ -1,0 +1,4 @@
+[
+    {"keys": ["shift+super+f"], "command": "show_panel", "args": {"panel": "replace", "reverse": false}},
+    {"keys": ["alt+super+f"], "command": "show_panel", "args": {"panel": "find_in_files"}}
+]
