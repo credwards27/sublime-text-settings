@@ -1,0 +1,23 @@
+<snippet>
+	<content><![CDATA[
+/* ${1:myFile}.js
+	
+	${2:Description of file.}
+*/
+
+(function(env, undefined) {
+
+"use strict";
+
+// Code here
+
+})(this);
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<tabTrigger>///jse</tabTrigger>
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>source.js, source.embedded.js.html</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>JS Template</description>
+</snippet>

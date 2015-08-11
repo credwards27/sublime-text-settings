@@ -5,13 +5,13 @@
 	${2:Description of file.}
 */
 
-(function(env, undefined) {
+(function(w,${3: \$,} undefined) {
 
 "use strict";
 
 // Code here
 
-})(this);
+})(window${4:, window.jQuery});
 
 ]]></content>
 	<!-- Optional: Tab trigger to activate the snippet -->
