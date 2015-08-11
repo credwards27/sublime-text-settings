@@ -5,7 +5,7 @@
 	${2:Description of file.}
 */
 
-(function(w,${3: \$,} undefined) {
+(function(w,${3: \$, }undefined) {
 
 "use strict";
 
