@@ -1,0 +1,27 @@
+<snippet>
+	<content><![CDATA[
+@charset "UTF-8";
+
+/* Imports */
+
+/* Meta */
+
+body {
+	margin: 0;
+	
+	* {
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+	}
+}
+
+/* Layout */
+
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>///scss</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.scss</scope>
+	<description>SCSS template</description>
+</snippet>
