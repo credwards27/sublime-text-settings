@@ -3,14 +3,14 @@
 /**
  * ${1}
  *
- * @const ${2}
+ * @const ${2:CONST_NAME}
  */
-const ${3:CONST_NAME} = ${4:value};
+const ${2:CONST_NAME} = ${3:value};
 ]]></content>
 	<!-- Optional: Tab trigger to activate the snippet -->
 	<tabTrigger>///const</tabTrigger>
 	<!-- Optional: Scope the tab trigger will be active in -->
 	<scope>source.php</scope>
 	<!-- Optional: Description to show in the menu -->
-	<description>PHP Variable Declaration</description>
+	<description>PHP Constant Declaration</description>
 </snippet>
