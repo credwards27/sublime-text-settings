@@ -5,7 +5,7 @@
 	${2:Description of file.}
 */
 
-(function(env, undefined) {
+;(function(env, undefined) {
 
 "use strict";
 

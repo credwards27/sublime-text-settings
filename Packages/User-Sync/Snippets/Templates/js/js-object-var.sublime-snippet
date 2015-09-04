@@ -1,23 +1,12 @@
 <snippet>
 	<content><![CDATA[
-/* ${1:myFile}.js
-	
-	${2:Description of file.}
-*/
-
-;(function(w,${3: \$, }undefined) {
-
-"use strict";
-
-// Code here
-
-})(window${4:, window.jQuery});
-
+// ${1:Description of variable.}
+${2:myVariable}: ${3:null}
 ]]></content>
 	<!-- Optional: Tab trigger to activate the snippet -->
-	<tabTrigger>///js</tabTrigger>
+	<tabTrigger>///ovar</tabTrigger>
 	<!-- Optional: Scope the tab trigger will be active in -->
 	<scope>source.js, source.embedded.js.html</scope>
 	<!-- Optional: Description to show in the menu -->
-	<description>JS Template</description>
+	<description>JS Object Property Variable Template</description>
 </snippet>
