@@ -11,7 +11,7 @@
 
 // Code here
 
-})(this);
+})(this, void 0);
 
 ]]></content>
 	<!-- Optional: Tab trigger to activate the snippet -->

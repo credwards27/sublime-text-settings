@@ -11,7 +11,7 @@
 
 // Code here
 
-})(window${4:, window.jQuery});
+})(window,${4: window.jQuery, }void 0);
 
 ]]></content>
 	<!-- Optional: Tab trigger to activate the snippet -->
