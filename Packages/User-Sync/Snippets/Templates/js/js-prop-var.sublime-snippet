@@ -1,14 +1,12 @@
 <snippet>
 	<content><![CDATA[
-/* ${1:Description of function.}
-*/
-${2:this.}${3:myFunction} = function(${4:param}) {
-};
+// ${1:Description of variable.}
+${2:this.}${3:myVariable} = ${4:null};
 ]]></content>
 	<!-- Optional: Tab trigger to activate the snippet -->
-	<tabTrigger>///pfunc</tabTrigger>
+	<tabTrigger>///pvar</tabTrigger>
 	<!-- Optional: Scope the tab trigger will be active in -->
 	<scope>source.js, source.embedded.js.html</scope>
 	<!-- Optional: Description to show in the menu -->
-	<description>JS Property Function Template</description>
+	<description>JS Property Variable Template</description>
 </snippet>
