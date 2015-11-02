@@ -4,12 +4,17 @@
 	],
 	"installed_packages":
 	[
+		"All Autocomplete",
 		"Base16 Color Schemes",
+		"GitGutter",
+		"LESS",
 		"MarkdownEditing",
 		"Package Control",
 		"SFTP",
 		"SideBarEnhancements",
+		"Syntax Highlighting for SASS",
 		"Theme - Soda",
-		"TrailingSpaces"
+		"TrailingSpaces",
+		"TypeScript"
 	]
 }
