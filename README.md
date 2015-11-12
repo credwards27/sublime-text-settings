@@ -7,7 +7,6 @@ Environment settings for Sublime Text 2/3.
 The following packages should be installed:
 
 - Package Control (https://packagecontrol.io/)
-- All Autocomplete
 - Base16 Color Schemes
 - GitGutter
 - LESS
