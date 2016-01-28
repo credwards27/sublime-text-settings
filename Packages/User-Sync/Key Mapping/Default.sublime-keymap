@@ -1,4 +1,7 @@
 [
-    {"keys": ["shift+super+f"], "command": "show_panel", "args": {"panel": "replace", "reverse": false}},
-    {"keys": ["alt+super+f"], "command": "show_panel", "args": {"panel": "find_in_files"}}
+    { "keys": [ "shift+super+f" ], "command": "show_panel", "args": { "panel": "replace", "reverse": false } },
+    { "keys": [ "alt+super+f" ], "command": "show_panel", "args": { "panel": "find_in_files" } },
+    
+    { "keys": [ "super+enter" ], "command": "build" },
+    { "keys": [ "shift+super+enter" ], "command": "build", "args": { "select": true } }
 ]
