@@ -57,7 +57,7 @@
 			<key>name</key>
 			<string>Text</string>
 			<key>scope</key>
-			<string>variable.other.readwrite.js, variable.other.object.js</string>
+			<string>variable.other.readwrite.js, variable.other.object.js, variable.other.dollar.js</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -158,7 +158,7 @@
 			<key>name</key>
 			<string>Object Properties</string>
 			<key>scope</key>
-			<string>meta.property.object</string>
+			<string>meta.property.object, variable.other.constant</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -180,7 +180,7 @@
 			<key>name</key>
 			<string>Classes</string>
 			<key>scope</key>
-			<string>support.class, entity.name.class, entity.name.type.class</string>
+			<string>support.class, entity.name.class, entity.name.type.class, variable.function.constructor</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
