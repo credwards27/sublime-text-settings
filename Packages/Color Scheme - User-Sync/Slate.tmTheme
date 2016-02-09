@@ -81,11 +81,22 @@
 			<key>name</key>
 			<string>Punctuation</string>
 			<key>scope</key>
-			<string>punctuation.definition.string, punctuation.definition.variable, punctuation.definition.string, punctuation.definition.parameters, punctuation.definition.string, punctuation.definition.array</string>
+			<string>punctuation.definition.string, punctuation.definition.parameters, punctuation.definition.array</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
 				<string>#a7a7a7</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Punctuation - PHP Variable Delimiter</string>
+			<key>scope</key>
+			<string>punctuation.definition.variable</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#b88288</string>
 			</dict>
 		</dict>
 		<dict>
