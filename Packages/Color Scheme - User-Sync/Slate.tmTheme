@@ -103,7 +103,7 @@
 			<key>name</key>
 			<string>Object Definition Symbols/Delimiters</string>
 			<key>scope</key>
-			<string>meta.delimiter.comma, punctuation.separator.key-value, punctuation.terminator.statement</string>
+			<string>meta.delimiter.comma, punctuation.separator.key-value, punctuation.terminator</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
