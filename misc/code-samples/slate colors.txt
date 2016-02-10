@@ -27,3 +27,5 @@ purple - 9b859d
 pink - b88288
 
 tan - e1b47d
+
+brown - 785a3a
