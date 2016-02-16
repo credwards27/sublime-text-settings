@@ -3,5 +3,7 @@
     { "keys": [ "ctrl+h" ], "command": "show_panel", "args": { "panel": "find_in_files" } },
     
     { "keys": [ "ctrl+enter" ], "command": "build" },
-    { "keys": [ "shift+ctrl+enter" ], "command": "build", "args": { "select": true } }
+    { "keys": [ "shift+ctrl+enter" ], "command": "build", "args": { "select": true } },
+    
+    { "keys": [ "shift+ctrl+r" ], "command": "refresh_folder_list" }
 ]
