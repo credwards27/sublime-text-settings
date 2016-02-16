@@ -209,6 +209,13 @@ var instance = new MyClass();
 // Set constructor (builtin prototype property)
 MyClass.prototype.contructor = MyClass;
 
+// Static property on class
+MyClass.myVar;
+
+// ES6 class
+class MyES6Class {
+}
+
 //
 // ENVIRONMENT
 //

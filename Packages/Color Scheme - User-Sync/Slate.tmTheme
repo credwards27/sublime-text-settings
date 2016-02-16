@@ -189,13 +189,24 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Classes</string>
+			<string>JavaScript Classes</string>
 			<key>scope</key>
-			<string>support.class, entity.name.class, entity.name.type.class, variable.function.constructor</string>
+			<string>source.js support.class, source.js entity.name.class, source.js entity.name.type.class, source.js variable.function.constructor, source.js variable.other.class</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
 				<string>#b88288</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Non-JavaScript Classes</string>
+			<key>scope</key>
+			<string>support.class, entity.name.class, entity.name.type.class, variable.function.constructor, variable.other.class</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#f9ee98</string>
 			</dict>
 		</dict>
 		<dict>
