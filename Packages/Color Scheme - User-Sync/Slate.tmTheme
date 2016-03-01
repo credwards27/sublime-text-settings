@@ -420,6 +420,17 @@
 		</dict>
 		<dict>
 			<key>name</key>
+			<string>CSS Brackets</string>
+			<key>scope</key>
+			<string>punctuation.section.property-list</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#7587a6</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
 			<string>Selector</string>
 			<key>scope</key>
 			<string>meta.selector</string>
