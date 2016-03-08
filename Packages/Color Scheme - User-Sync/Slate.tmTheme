@@ -409,6 +409,50 @@
 		</dict>
 		<dict>
 			<key>name</key>
+			<string>Handlebars Code</string>
+			<key>scope</key>
+			<string>source.handlebars.embedded.html</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#bA7e5e</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Handlebars Inline Braces</string>
+			<key>scope</key>
+			<string>text.html.handlebars meta.function.inline.other.handlebars</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#bA7e5e</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Handlebars Inline Attributes</string>
+			<key>scope</key>
+			<string>text.html.handlebars meta.function.inline.other.handlebars entity.other.attribute-name variable.parameter</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#e1b47d</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Handlebars Support Constants</string>
+			<key>scope</key>
+			<string>text.html.handlebars meta.function.block, text.html.handlebars meta.function.inline</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#9b859d</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
 			<string>CSS Operators</string>
 			<key>scope</key>
 			<string>keyword.operator.less</string>
