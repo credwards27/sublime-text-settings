@@ -409,17 +409,6 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Handlebars Code</string>
-			<key>scope</key>
-			<string>source.handlebars.embedded.html</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#bA7e5e</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
 			<string>Handlebars Inline Braces</string>
 			<key>scope</key>
 			<string>text.html.handlebars meta.function.inline.other.handlebars</string>
