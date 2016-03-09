@@ -5,5 +5,7 @@
     { "keys": [ "ctrl+enter" ], "command": "build" },
     { "keys": [ "shift+ctrl+enter" ], "command": "build", "args": { "select": true } },
     
-    { "keys": [ "shift+ctrl+r" ], "command": "refresh_folder_list" }
+    { "keys": [ "shift+ctrl+r" ], "command": "refresh_folder_list" },
+    
+    { "keys": [ "shift+alt+ctrl+p" ], "command": "get_selection_scope" }
 ]

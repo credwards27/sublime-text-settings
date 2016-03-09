@@ -1,0 +1,7 @@
+{
+    "show_popup": true,
+    "show_panel": false,
+    "styling": true,
+    "selectors": true,
+    "file_paths": true
+}
