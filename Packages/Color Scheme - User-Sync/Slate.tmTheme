@@ -180,7 +180,7 @@
 			<key>name</key>
 			<string>Functions</string>
 			<key>scope</key>
-			<string>entity.name.function, meta.require, support.function.any-method, variable.function</string>
+			<string>meta.function.js, entity.name.function, meta.require, support.function.any-method, variable.function</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -217,7 +217,18 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#ffffff</string>
+				<string>#a7a7a7</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Class Methods</string>
+			<key>scope</key>
+			<string>meta.class meta.method</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#7587a6</string>
 			</dict>
 		</dict>
 		<dict>
