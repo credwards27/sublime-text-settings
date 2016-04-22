@@ -233,6 +233,17 @@
 		</dict>
 		<dict>
 			<key>name</key>
+			<string>Class Properties</string>
+			<key>scope</key>
+			<string>meta.class meta.class.property variable.other.property</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#e1b47d</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
 			<string>Methods</string>
 			<key>scope</key>
 			<string>keyword.other.special-method</string>
