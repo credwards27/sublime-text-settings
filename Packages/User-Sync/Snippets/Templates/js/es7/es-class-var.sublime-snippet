@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+// ${1:Description of variable.}
+${2:static }${3:myVariable} = ${4:null};
+]]></content>
+    <!-- Optional: Tab trigger to activate the snippet -->
+    <tabTrigger>///cvar</tabTrigger>
+    <!-- Optional: Scope the tab trigger will be active in -->
+    <scope>source.js, source.embedded.js.html</scope>
+    <!-- Optional: Description to show in the menu -->
+    <description>ES7 Class Property Template</description>
+</snippet>

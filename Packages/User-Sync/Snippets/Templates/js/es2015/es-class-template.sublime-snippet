@@ -1,0 +1,34 @@
+<snippet>
+    <content><![CDATA[
+/* ${1:Description of class.}
+*/
+class ${2:ClassName} {
+    //
+    // STATIC PROPERTIES
+    //
+    
+    //
+    // PROPERTIES
+    //
+    
+    //
+    // STATIC METHODS
+    //
+    
+    //
+    // METHODS
+    //
+    
+    /* Constructor for ${2:ClassName}.
+    */
+    constructor() {${0}
+    }
+}
+]]></content>
+    <!-- Optional: Tab trigger to activate the snippet -->
+    <tabTrigger>///esclass</tabTrigger>
+    <!-- Optional: Scope the tab trigger will be active in -->
+    <scope>source.js</scope>
+    <!-- Optional: Description to show in the menu -->
+    <description>ES2015 Class Template</description>
+</snippet>
