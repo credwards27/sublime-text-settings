@@ -28,6 +28,7 @@
 	"show_encoding": true,
 	"show_line_endings": true,
 	"theme": "Soda Dark 3.sublime-theme",
+	"translate_tabs_to_spaces": true,
 	"trim_automatic_white_space": false,
 	"use_simple_full_screen": true,
 	"word_wrap": false
