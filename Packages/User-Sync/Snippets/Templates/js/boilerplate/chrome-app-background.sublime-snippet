@@ -9,10 +9,9 @@
 
 "use strict";
 
-// Code here
+// Code here${0}
 
 })(chrome, chrome.app, chrome.app.window, void 0);
-
 ]]></content>
     <!-- Optional: Tab trigger to activate the snippet -->
     <tabTrigger>///jscab</tabTrigger>

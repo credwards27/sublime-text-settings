@@ -2,7 +2,7 @@
     <content><![CDATA[
 /* ${1:Description of function.}
 */
-${2:myFunction}: function(${3:param}) {
+${2:myFunction}: function(${3:param}) {${0}
 }
 ]]></content>
     <!-- Optional: Tab trigger to activate the snippet -->

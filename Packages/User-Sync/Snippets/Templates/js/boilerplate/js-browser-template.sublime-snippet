@@ -4,7 +4,7 @@
 
 "use strict";
 
-// Code here
+// Code here${0}
 
 })(window,${3: window.jQuery, }void 0);
 ]]></content>

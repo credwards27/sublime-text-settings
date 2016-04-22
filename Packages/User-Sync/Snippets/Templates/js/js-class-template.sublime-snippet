@@ -25,7 +25,7 @@ function ${1:MyClass}() {
     //
     
     // Initializer
-    (function() {
+    (function() {${0}
     })();
 }
 
