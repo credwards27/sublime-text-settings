@@ -22,16 +22,16 @@ var ${1:mySystem} = ${1:mySystem} || (function(\$) {
     
     // Create system controller prototype (and set alias)
     sys.fn = sys.prototype = {
-        /*
-         * GLOBAL SYSTEM OBJECTS AND VARIABLES
-        */
+        //
+        // GLOBAL SYSTEM OBJECTS AND VARIABLES
+        //
         
         // Collection of global objects and variables for the system.
         g: {},
         
-        /*
-         * STATIC PROTOTYPE FUNCTIONS
-        */
+        //
+        // STATIC PROTOTYPE FUNCTIONS
+        //
         
         /* Default initializer function.
             args - Arguments.
@@ -40,17 +40,17 @@ var ${1:mySystem} = ${1:mySystem} || (function(\$) {
             return this;
         },
         
-        /*
-         * SYSTEM CLASSES
-        */
+        //
+        // SYSTEM CLASSES
+        //
         
         // Collection of object classes for the system.
         c: {}
     };
     
-    /*
-     * SYSTEM INITIALIZERS
-    */
+    //
+    // SYSTEM INITIALIZERS
+    //
     
     // Set system object prototype
     sys.fn.init.prototype = sys.fn;

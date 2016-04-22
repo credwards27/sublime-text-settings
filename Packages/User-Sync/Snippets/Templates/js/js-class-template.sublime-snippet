@@ -10,37 +10,37 @@
 function ${3:MyClass}() {
     // Default parameters
     
-    /*
-     * PRIVATE VARIABLES
-    */
+    //
+    // PRIVATE VARIABLES
+    //
     
     // Reference to self.
     var mSelf = this;
     
-    /*
-     * PUBLIC VARIABLES
-    */
+    //
+    // PUBLIC VARIABLES
+    //
     
-    /*
-     * PRIVILEGED FUNCTIONS
-    */
+    //
+    // PRIVILEGED FUNCTIONS
+    //
     
-    /*
-     * PRIVATE FUNCTIONS
-    */
+    //
+    // PRIVATE FUNCTIONS
+    //
     
     // Initializer
     (function() {
     })();
 }
 
-/*
- * STATIC FUNCTIONS
-*/
+//
+// STATIC FUNCTIONS
+//
 
-/*
- * STATIC INITIALIZERS
-*/
+//
+// STATIC INITIALIZERS
+//
 ]]></content>
     <!-- Optional: Tab trigger to activate the snippet -->
     <tabTrigger>///class</tabTrigger>
