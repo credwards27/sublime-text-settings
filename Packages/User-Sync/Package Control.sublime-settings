@@ -4,17 +4,17 @@
 	],
 	"installed_packages":
 	[
+		"Babel",
 		"Base16 Color Schemes",
+		"Emmet",
 		"GitGutter",
+		"Handlebars",
+		"jQuery",
 		"LESS",
 		"MarkdownEditing",
-		"Package Control",
-		"ScopeHunter",
-		"SFTP",
 		"SideBarEnhancements",
 		"Syntax Highlighting for Sass",
 		"Theme - Soda",
-		"TrailingSpaces",
-		"TypeScript"
+		"TrailingSpaces"
 	]
 }
