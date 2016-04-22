@@ -1,18 +1,12 @@
 <snippet>
     <content><![CDATA[
-/* ${1:myFile}.js
-    
-    ${2:Description of file.}
-*/
-
-;(function(w,${3: \$, }undefined) {
+;(function(w,${2: \$, }undefined) {
 
 "use strict";
 
 // Code here
 
-})(window,${4: window.jQuery, }void 0);
-
+})(window,${3: window.jQuery, }void 0);
 ]]></content>
     <!-- Optional: Tab trigger to activate the snippet -->
     <tabTrigger>///js</tabTrigger>

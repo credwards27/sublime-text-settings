@@ -1,10 +1,10 @@
 <snippet>
     <content><![CDATA[
-/* ${1:mySystem}.js
+/* ${TM_FILENAME}
     
-    ${2:Description of self-contained jQuery system.}
+    ${1:Description of self-contained jQuery system.}
     
-    Requires jQuery ${3:x.x.x} or higher.
+    Requires jQuery ${2:x.x.x} or higher.
     
     Version 0.0.1
 */
@@ -16,7 +16,7 @@
 /* Global system controller.
     \$ - Localized reference active jQuery instance at script load time.
 */
-var ${1:mySystem} = ${1:mySystem} || (function(\$) {
+var ${3:mySystem} = ${3:mySystem} || (function(\$) {
     // Create system instance
     var sys = function(args) { return new sys.fn.init(args); };
     
@@ -59,7 +59,7 @@ var ${1:mySystem} = ${1:mySystem} || (function(\$) {
     return sys;
 })(env.jQuery);
 
-})(this);
+})(this, void 0);
 ]]></content>
     <!-- Optional: Tab trigger to activate the snippet -->
     <tabTrigger>///jqsys</tabTrigger>

@@ -1,17 +1,15 @@
 <snippet>
     <content><![CDATA[
-;(function(env, undefined) {
+/* ${TM_FILENAME}
+    
+    ${1:Description of file.}
+*/
 
-"use strict";
-
-// Code here
-
-})(this, void 0);
 ]]></content>
     <!-- Optional: Tab trigger to activate the snippet -->
-    <tabTrigger>///jse</tabTrigger>
+    <tabTrigger>///jsh</tabTrigger>
     <!-- Optional: Scope the tab trigger will be active in -->
     <scope>source.js, source.embedded.js.html</scope>
     <!-- Optional: Description to show in the menu -->
-    <description>JS Template</description>
+    <description>JS File Header</description>
 </snippet>
