@@ -1,5 +1,5 @@
 <snippet>
-	<content><![CDATA[
+    <content><![CDATA[
 /**
  * ${1}
  *
@@ -8,10 +8,10 @@
  */
 ${2} \$${4:varName}${5};
 ]]></content>
-	<!-- Optional: Tab trigger to activate the snippet -->
-	<tabTrigger>///var</tabTrigger>
-	<!-- Optional: Scope the tab trigger will be active in -->
-	<scope>source.php</scope>
-	<!-- Optional: Description to show in the menu -->
-	<description>PHP Variable Declaration</description>
+    <!-- Optional: Tab trigger to activate the snippet -->
+    <tabTrigger>///var</tabTrigger>
+    <!-- Optional: Scope the tab trigger will be active in -->
+    <scope>source.php</scope>
+    <!-- Optional: Description to show in the menu -->
+    <description>PHP Variable Declaration</description>
 </snippet>

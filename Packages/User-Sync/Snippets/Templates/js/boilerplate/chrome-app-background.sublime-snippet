@@ -1,8 +1,8 @@
 <snippet>
-	<content><![CDATA[
+    <content><![CDATA[
 /* ${1:myFile}.js
-	
-	${2:Description of file.}
+    
+    ${2:Description of file.}
 */
 
 ;(function(chrome, app, w, undefined) {
@@ -14,10 +14,10 @@
 })(chrome, chrome.app, chrome.app.window, void 0);
 
 ]]></content>
-	<!-- Optional: Tab trigger to activate the snippet -->
-	<tabTrigger>///jscab</tabTrigger>
-	<!-- Optional: Scope the tab trigger will be active in -->
-	<scope>source.js</scope>
-	<!-- Optional: Description to show in the menu -->
-	<description>Chrome app background script template</description>
+    <!-- Optional: Tab trigger to activate the snippet -->
+    <tabTrigger>///jscab</tabTrigger>
+    <!-- Optional: Scope the tab trigger will be active in -->
+    <scope>source.js</scope>
+    <!-- Optional: Description to show in the menu -->
+    <description>Chrome app background script template</description>
 </snippet>

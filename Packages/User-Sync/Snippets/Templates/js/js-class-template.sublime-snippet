@@ -1,37 +1,37 @@
 <snippet>
-	<content><![CDATA[
+    <content><![CDATA[
 /* ${1:myClass}.js
-	
-	${2:Description of class.}
+    
+    ${2:Description of class.}
 */
 
 /* Constructor for ${3:MyClass} object.
 */
 function ${3:MyClass}() {
-	// Default parameters
-	
-	/*
-	 * PRIVATE VARIABLES
-	*/
-	
-	// Reference to self.
-	var mSelf = this;
-	
-	/*
-	 * PUBLIC VARIABLES
-	*/
-	
-	/*
-	 * PRIVILEGED FUNCTIONS
-	*/
-	
-	/*
-	 * PRIVATE FUNCTIONS
-	*/
-	
-	// Initializer
-	(function() {
-	})();
+    // Default parameters
+    
+    /*
+     * PRIVATE VARIABLES
+    */
+    
+    // Reference to self.
+    var mSelf = this;
+    
+    /*
+     * PUBLIC VARIABLES
+    */
+    
+    /*
+     * PRIVILEGED FUNCTIONS
+    */
+    
+    /*
+     * PRIVATE FUNCTIONS
+    */
+    
+    // Initializer
+    (function() {
+    })();
 }
 
 /*
@@ -42,10 +42,10 @@ function ${3:MyClass}() {
  * STATIC INITIALIZERS
 */
 ]]></content>
-	<!-- Optional: Tab trigger to activate the snippet -->
-	<tabTrigger>///class</tabTrigger>
-	<!-- Optional: Scope the tab trigger will be active in -->
-	<scope>source.js</scope>
-	<!-- Optional: Description to show in the menu -->
-	<description>JS Class Template</description>
+    <!-- Optional: Tab trigger to activate the snippet -->
+    <tabTrigger>///class</tabTrigger>
+    <!-- Optional: Scope the tab trigger will be active in -->
+    <scope>source.js</scope>
+    <!-- Optional: Description to show in the menu -->
+    <description>JS Class Template</description>
 </snippet>

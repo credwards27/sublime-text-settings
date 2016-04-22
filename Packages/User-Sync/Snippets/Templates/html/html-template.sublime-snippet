@@ -1,5 +1,5 @@
 <snippet>
-	<content><![CDATA[
+    <content><![CDATA[
 <!DOCTYPE html>
 <html>
 <head>
@@ -12,10 +12,10 @@
 </html>
 
 ]]></content>
-	<!-- Optional: Tab trigger to activate the snippet -->
-	<tabTrigger>///html</tabTrigger>
-	<!-- Optional: Scope the tab trigger will be active in -->
-	<scope>text.html, text.php</scope>
-	<!-- Optional: Description to show in the menu -->
-	<description>HTML template</description>
+    <!-- Optional: Tab trigger to activate the snippet -->
+    <tabTrigger>///html</tabTrigger>
+    <!-- Optional: Scope the tab trigger will be active in -->
+    <scope>text.html, text.php</scope>
+    <!-- Optional: Description to show in the menu -->
+    <description>HTML template</description>
 </snippet>

@@ -1,8 +1,8 @@
 <snippet>
-	<content><![CDATA[
+    <content><![CDATA[
 /* ${1:myFile}.js
-	
-	${2:Description of file.}
+    
+    ${2:Description of file.}
 */
 
 ;(function(w,${3: \$, }undefined) {
@@ -14,10 +14,10 @@
 })(window,${4: window.jQuery, }void 0);
 
 ]]></content>
-	<!-- Optional: Tab trigger to activate the snippet -->
-	<tabTrigger>///js</tabTrigger>
-	<!-- Optional: Scope the tab trigger will be active in -->
-	<scope>source.js, source.embedded.js.html</scope>
-	<!-- Optional: Description to show in the menu -->
-	<description>JS Template</description>
+    <!-- Optional: Tab trigger to activate the snippet -->
+    <tabTrigger>///js</tabTrigger>
+    <!-- Optional: Scope the tab trigger will be active in -->
+    <scope>source.js, source.embedded.js.html</scope>
+    <!-- Optional: Description to show in the menu -->
+    <description>JS Template</description>
 </snippet>

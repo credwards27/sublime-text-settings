@@ -1,12 +1,12 @@
 <snippet>
-	<content><![CDATA[
+    <content><![CDATA[
 // ${1:Description of variable.}
 ${2:myVariable}: ${3:null}
 ]]></content>
-	<!-- Optional: Tab trigger to activate the snippet -->
-	<tabTrigger>///ovar</tabTrigger>
-	<!-- Optional: Scope the tab trigger will be active in -->
-	<scope>source.js, source.embedded.js.html</scope>
-	<!-- Optional: Description to show in the menu -->
-	<description>JS Object Property Variable Template</description>
+    <!-- Optional: Tab trigger to activate the snippet -->
+    <tabTrigger>///ovar</tabTrigger>
+    <!-- Optional: Scope the tab trigger will be active in -->
+    <scope>source.js, source.embedded.js.html</scope>
+    <!-- Optional: Description to show in the menu -->
+    <description>JS Object Property Variable Template</description>
 </snippet>

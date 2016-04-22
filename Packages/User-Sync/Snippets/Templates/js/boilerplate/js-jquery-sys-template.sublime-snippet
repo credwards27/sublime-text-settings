@@ -1,12 +1,12 @@
 <snippet>
-	<content><![CDATA[
+    <content><![CDATA[
 /* ${1:mySystem}.js
-	
-	${2:Description of self-contained jQuery system.}
-	
-	Requires jQuery ${3:x.x.x} or higher.
-	
-	Version 0.0.1
+    
+    ${2:Description of self-contained jQuery system.}
+    
+    Requires jQuery ${3:x.x.x} or higher.
+    
+    Version 0.0.1
 */
 
 ;(function(env, undefined) {
@@ -14,57 +14,57 @@
 "use strict";
 
 /* Global system controller.
-	\$ - Localized reference active jQuery instance at script load time.
+    \$ - Localized reference active jQuery instance at script load time.
 */
 var ${1:mySystem} = ${1:mySystem} || (function(\$) {
-	// Create system instance
-	var sys = function(args) { return new sys.fn.init(args); };
-	
-	// Create system controller prototype (and set alias)
-	sys.fn = sys.prototype = {
-		/*
-		 * GLOBAL SYSTEM OBJECTS AND VARIABLES
-		*/
-		
-		// Collection of global objects and variables for the system.
-		g: {},
-		
-		/*
-		 * STATIC PROTOTYPE FUNCTIONS
-		*/
-		
-		/* Default initializer function.
-			args - Arguments.
-		*/
-		init: function(args) {
-			return this;
-		},
-		
-		/*
-		 * SYSTEM CLASSES
-		*/
-		
-		// Collection of object classes for the system.
-		c: {}
-	};
-	
-	/*
-	 * SYSTEM INITIALIZERS
-	*/
-	
-	// Set system object prototype
-	sys.fn.init.prototype = sys.fn;
-	
-	// Return the system instance
-	return sys;
+    // Create system instance
+    var sys = function(args) { return new sys.fn.init(args); };
+    
+    // Create system controller prototype (and set alias)
+    sys.fn = sys.prototype = {
+        /*
+         * GLOBAL SYSTEM OBJECTS AND VARIABLES
+        */
+        
+        // Collection of global objects and variables for the system.
+        g: {},
+        
+        /*
+         * STATIC PROTOTYPE FUNCTIONS
+        */
+        
+        /* Default initializer function.
+            args - Arguments.
+        */
+        init: function(args) {
+            return this;
+        },
+        
+        /*
+         * SYSTEM CLASSES
+        */
+        
+        // Collection of object classes for the system.
+        c: {}
+    };
+    
+    /*
+     * SYSTEM INITIALIZERS
+    */
+    
+    // Set system object prototype
+    sys.fn.init.prototype = sys.fn;
+    
+    // Return the system instance
+    return sys;
 })(env.jQuery);
 
 })(this);
 ]]></content>
-	<!-- Optional: Tab trigger to activate the snippet -->
-	<tabTrigger>///jqsys</tabTrigger>
-	<!-- Optional: Scope the tab trigger will be active in -->
-	<scope>source.js</scope>
-	<!-- Optional: Description to show in the menu -->
-	<description>JS jQuery self-contained system template</description>
+    <!-- Optional: Tab trigger to activate the snippet -->
+    <tabTrigger>///jqsys</tabTrigger>
+    <!-- Optional: Scope the tab trigger will be active in -->
+    <scope>source.js</scope>
+    <!-- Optional: Description to show in the menu -->
+    <description>JS jQuery self-contained system template</description>
 </snippet>
