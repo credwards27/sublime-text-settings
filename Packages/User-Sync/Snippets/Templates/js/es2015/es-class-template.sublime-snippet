@@ -11,6 +11,11 @@ class ${2:ClassName} {
     // PROPERTIES
     //
     
+    /* Constructor for ${2:ClassName}.
+    */
+    constructor() {${0}
+    }
+    
     //
     // STATIC METHODS
     //
@@ -18,11 +23,6 @@ class ${2:ClassName} {
     //
     // METHODS
     //
-    
-    /* Constructor for ${2:ClassName}.
-    */
-    constructor() {${0}
-    }
 }
 ]]></content>
     <!-- Optional: Tab trigger to activate the snippet -->
