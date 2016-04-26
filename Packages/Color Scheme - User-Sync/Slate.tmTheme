@@ -235,7 +235,7 @@
 			<key>name</key>
 			<string>Class Properties</string>
 			<key>scope</key>
-			<string>meta.class meta.class.property variable.other.property</string>
+			<string>meta.class meta.class.property variable.other.property, meta.class meta.property.object variable.other.object.js</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
