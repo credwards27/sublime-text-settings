@@ -11,10 +11,12 @@ class ${2:ClassName} {
     // PROPERTIES
     //
     
+    // Reference to self.
+    _self = this;
+    
     /* Constructor for ${2:ClassName}.
     */
-    constructor() {${0}
-    }
+    constructor() {${0}}
     
     //
     // STATIC METHODS
