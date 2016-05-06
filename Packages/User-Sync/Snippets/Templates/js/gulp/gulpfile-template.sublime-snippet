@@ -1,0 +1,80 @@
+<snippet>
+    <content><![CDATA[
+// Gulp dependencies
+const gulp = require("gulp"),
+    plumber = require("gulp-plumber"),
+    
+    // Other dependencies
+    runSequence = require("run-sequence"),
+    del = require("del");
+
+// Environment flags.
+var env = {
+    // Build output path.
+    DIST_DIR: "${1:dist}",
+    
+    // Flag to specify that the current task sequence is for production.
+    prodMode: false
+},
+    
+    // Collection of task handler functions.
+    tasks = {${0}
+        /* Makes all subsequent tasks run in production mode (if supported).
+        */
+        "prod-mode": function() {
+            env.prodMode = true;
+        },
+        
+        /* Watches the project for changes and recompiles.
+        */
+        watch: function() {
+        },
+        
+        /* Clears the DIST_DIR directory for a clean build.
+        */
+        clean: function() {
+            return del([ env.DIST_DIR + "/**/*" ]);
+        },
+        
+        // Complete build task.
+        build: [],
+        
+        /* Production build task.
+        */
+        deploy: function() {
+            runSequence("clean", "prod-mode", "build");
+        },
+        
+        //
+        // Aliases
+        //
+        
+        w: [ "watch" ]
+    },
+    
+    // Iterator containers.
+    curr, k;
+
+// Link tasks with handlers
+for (k in tasks) {
+    if (tasks.hasOwnProperty(k)) {
+        curr = tasks[k];
+        
+        if (curr.pre instanceof Array && typeof curr.task === "function") {
+            // Special case, handler with pre-tasks
+            gulp.task(k, curr.pre, curr.task);
+        }
+        else {
+            // Normal case, handler or task list
+            gulp.task(k, curr);
+        }
+    }
+}
+]]></content>
+    <!-- Optional: Tab trigger to activate the snippet -->
+    <tabTrigger>///gulpfile</tabTrigger>
+    <!-- Optional: Scope the tab trigger will be active in -->
+    <scope>source.js</scope>
+    <!-- Optional: Description to show in the menu -->
+    <description>Gulpfile Boilerplate Template</description>
+</snippet>
