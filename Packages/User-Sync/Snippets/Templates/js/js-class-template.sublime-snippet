@@ -33,6 +33,12 @@ function ${1:MyClass}() {
 // STATIC FUNCTIONS
 //
 
+/* Destructor for ${1:MyClass}.
+    
+    c - ${1:MyClass} instance.
+*/
+${1:MyClass}.prototype.destroy = function(c) {};
+
 //
 // STATIC INITIALIZERS
 //

@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[
+// Inherit from ${2:ParentClass}
+${1:MyClass}.prototype = Object.create(${2:ParentClass}.prototype)
+${1:MyClass}.prototype.constructor = ${1:MyClass};
+]]></content>
+    <!-- Optional: Tab trigger to activate the snippet -->
+    <tabTrigger>///subclass</tabTrigger>
+    <!-- Optional: Scope the tab trigger will be active in -->
+    <scope>source.js</scope>
+    <!-- Optional: Description to show in the menu -->
+    <description>JS Class Inheritance Template</description>
+</snippet>

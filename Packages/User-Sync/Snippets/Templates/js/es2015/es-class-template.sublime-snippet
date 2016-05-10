@@ -18,6 +18,12 @@ class ${2:ClassName} {
     */
     constructor() {${0}}
     
+    /* Destructor for ${2:ClassName}.
+        
+        c - ${2:ClassName} instance.
+    */
+    static destroy(c) {}
+    
     //
     // STATIC METHODS
     //
