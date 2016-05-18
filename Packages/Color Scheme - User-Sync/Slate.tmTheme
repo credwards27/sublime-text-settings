@@ -158,7 +158,7 @@
 			<key>name</key>
 			<string>Variables</string>
 			<key>scope</key>
-			<string>variable</string>
+			<string>variable, variable.other.class.php</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
