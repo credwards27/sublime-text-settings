@@ -3,7 +3,7 @@
 /* ${1:Description of function.}
 */
 ${2:myFunction}: function(${3:param}) {${0}
-}
+}${4:,}
 ]]></content>
     <!-- Optional: Tab trigger to activate the snippet -->
     <tabTrigger>///ofunc</tabTrigger>

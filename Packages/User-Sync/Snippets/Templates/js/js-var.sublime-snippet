@@ -1,7 +1,7 @@
 <snippet>
     <content><![CDATA[
 // ${1:Description of variable.}
-${2:var }${3:myVariable} = ${4:null}
+${2:var }${3:myVariable} = ${4:null}${5:,}
 ]]></content>
     <!-- Optional: Tab trigger to activate the snippet -->
     <tabTrigger>///var</tabTrigger>
