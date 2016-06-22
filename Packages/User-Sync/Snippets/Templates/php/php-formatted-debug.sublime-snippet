@@ -6,7 +6,7 @@ echo '</pre>';${2:
 exit;}
 ]]></content>
     <!-- Optional: Tab trigger to activate the snippet -->
-    <tabTrigger>///pv</tabTrigger>
+    <tabTrigger>///pre</tabTrigger>
     <!-- Optional: Scope the tab trigger will be active in -->
     <scope>source.php</scope>
     <!-- Optional: Description to show in the menu -->
