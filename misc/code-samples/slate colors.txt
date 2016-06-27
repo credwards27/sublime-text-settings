@@ -20,7 +20,7 @@ green - 8f9d6a
 
 bright green - 95eaa6
 
-orange - bA7e5e
+orange - ba7e5e
 
 purple - 9b859d
 
