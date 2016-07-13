@@ -57,7 +57,12 @@ var env = {
         js: function() {
             console.log("Compiling scripts...");
             
-            var action = plumber()
+            var action = plumber({
+                errorHandler: function(err) {
+                    console.log(err);
+                    this.emit("end");
+                }
+            })
                 .pipe(rollup({
                     entry: env.SRC_DIR + "/index.js",
                     format: "iife",
