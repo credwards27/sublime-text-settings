@@ -2,16 +2,31 @@
     <content><![CDATA[
 // Gulp dependencies
 const gulp = require("gulp"),
+    sourcemaps = require("gulp-sourcemaps"),
+    rename = require("gulp-rename"),
+    uglify = require("gulp-uglify"),
     plumber = require("gulp-plumber"),
     
+    // JS build dependencies
+    rollup = require("rollup-stream"),
+    rollupBabel = require("rollup-plugin-babel"),
+    rollupIncludePaths = require("rollup-plugin-includepaths"),
+    vinylSource = require("vinyl-source-stream"),
+    vinylBuffer = require("vinyl-buffer"),
+    
     // Other dependencies
+    pkg = require("./package.json"),
+    server = require("live-server"),
     runSequence = require("run-sequence"),
     del = require("del");
 
 // Environment flags.
 var env = {
+    // Build source path.
+    SRC_DIR: "${1:src}",
+    
     // Build output path.
-    DIST_DIR: "${1:dist}",
+    DIST_DIR: "${2:dist}",
     
     // Flag to specify that the current task sequence is for production.
     prodMode: false
@@ -28,6 +43,7 @@ var env = {
         /* Watches the project for changes and recompiles.
         */
         watch: function() {
+            gulp.watch(env.SRC_DIR + "/**/*.js", [ "js" ]);
         },
         
         /* Clears the DIST_DIR directory for a clean build.
@@ -36,8 +52,52 @@ var env = {
             return del([ env.DIST_DIR + "/**/*" ]);
         },
         
+        /* JS build task.
+        */
+        js: function() {
+            console.log("Compiling scripts...");
+            
+            var action = plumber()
+                .pipe(rollup({
+                    entry: env.SRC_DIR + "/index.js",
+                    format: "iife",
+                    sourceMap: true,
+                    plugins: [
+                        rollupIncludePaths({
+                            paths: [ env.SRC_DIR ]
+                        }),
+                        rollupBabel({
+                            presets: [ "es2015-rollup" ],
+                            plugins: [
+                                "transform-class-properties",
+                                ["babel-root-import", {
+                                    "rootPathSuffix": env.SRC_DIR
+                                }]
+                            ],
+                            sourceMaps: true
+                        })
+                    ]
+                }))
+                
+                // Buffer for sourcemaps
+                .pipe(vinylSource("index.js", env.SRC_DIR))
+                .pipe(vinylBuffer())
+                .pipe(sourcemaps.init({ loadMaps: true }));
+            
+            // Only minify on non-dev builds
+            if (env.prodMode) {
+                action.pipe(uglify());
+            }
+            
+            action.pipe(rename(pkg.name + (env.prodMode ? ".min" : "") + ".js"))
+                .pipe(sourcemaps.write("."))
+                .pipe(gulp.dest(env.DIST_DIR));
+            
+            return action;
+        },
+        
         // Complete build task.
-        build: [],
+        build: [ "js" ],
         
         /* Production build task.
         */
@@ -45,11 +105,29 @@ var env = {
             runSequence("clean", "prod-mode", "build");
         },
         
+        /* Live development server task.
+        */
+        server: function() {
+            runSequence("build", "watch");
+            
+            server.start({
+                port: 8080,
+                host: "localhost",
+                file: "index.html",
+                open: false,
+                watch: env.DIST_DIR
+            });
+        },
+        
         //
         // Aliases
         //
         
-        w: [ "watch" ]
+        w: [ "watch" ],
+        s: [ "server" ],
+        
+        // Default gulp task.
+        "default": [ "server" ]
     },
     
     // Iterator containers.
