@@ -113,7 +113,7 @@ var env = {
             server.start({
                 port: 8080,
                 host: "localhost",
-                file: "index.html",
+                file: "test/index.html",
                 open: false,
                 watch: env.DIST_DIR
             });
