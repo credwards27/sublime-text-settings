@@ -40,5 +40,5 @@ class ${2:ClassName} {
     <!-- Optional: Scope the tab trigger will be active in -->
     <scope>source.js</scope>
     <!-- Optional: Description to show in the menu -->
-    <description>ES2015 Class Template</description>
+    <description>ESNext Class Template</description>
 </snippet>

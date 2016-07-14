@@ -1,14 +1,12 @@
 <snippet>
     <content><![CDATA[
-/* ${1:Description of function.}
-*/
-${2:static }${3:myFunction}(${4:param}) {${0}
-}
+// ${1:Description of variable.}
+${2:static }${3:myVariable} = ${4:null};
 ]]></content>
     <!-- Optional: Tab trigger to activate the snippet -->
-    <tabTrigger>///cfunc</tabTrigger>
+    <tabTrigger>///cvar</tabTrigger>
     <!-- Optional: Scope the tab trigger will be active in -->
     <scope>source.js, source.embedded.js.html</scope>
     <!-- Optional: Description to show in the menu -->
-    <description>ES2015 Class Method Template</description>
+    <description>ESNext Class Property Template</description>
 </snippet>
