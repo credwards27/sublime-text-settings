@@ -9,12 +9,12 @@ function ${1:MyClass}() {
     // PRIVATE VARIABLES
     //
     
-    // Reference to self.
-    var mSelf = this;
-    
     //
     // PUBLIC VARIABLES
     //
+    
+    // Reference to self.
+    this._self = this;
     
     //
     // PRIVILEGED FUNCTIONS
@@ -33,11 +33,14 @@ function ${1:MyClass}() {
 // STATIC FUNCTIONS
 //
 
-/* Destructor for ${1:MyClass}.
+/* Destructor for ${1:MyClass}. Private properties should be destroyed using a
+ * privileged destructor method implemented on the class.
     
     c - ${1:MyClass} instance.
 */
-${1:MyClass}.prototype.destroy = function(c) {};
+${1:MyClass}.prototype.destroy = function(c) {
+    c._self = null;
+};
 
 //
 // STATIC INITIALIZERS

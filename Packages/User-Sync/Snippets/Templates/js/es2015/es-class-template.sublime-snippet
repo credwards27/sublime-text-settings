@@ -23,7 +23,7 @@ class ${2:ClassName} {
         c - ${2:ClassName} instance.
     */
     static destroy(c) {
-        this._self = null;
+        c._self = null;
     }
     
     //
