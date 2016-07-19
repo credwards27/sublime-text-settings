@@ -26,7 +26,7 @@ var env = {
     SRC_DIR: "${1:src}",
     
     // Build output path.
-    DIST_DIR: "${2:dist}",
+    DEST_DIR: "${2:dist}",
     
     // Flag to specify that the current task sequence is for production.
     prodMode: false
@@ -46,10 +46,10 @@ var env = {
             gulp.watch(env.SRC_DIR + "/**/*.js", [ "js" ]);
         },
         
-        /* Clears the DIST_DIR directory for a clean build.
+        /* Clears the build destination directories for a clean build.
         */
         clean: function() {
-            return del([ env.DIST_DIR + "/**/*" ]);
+            return del([ env.DEST_DIR + "/**/*" ]);
         },
         
         /* JS build task.
@@ -99,7 +99,7 @@ var env = {
             
             action.pipe(rename(pkg.name + (env.prodMode ? ".min" : "") + ".js"))
                 .pipe(sourcemaps.write("."))
-                .pipe(gulp.dest(env.DIST_DIR));
+                .pipe(gulp.dest(env.DEST_DIR));
             
             return action;
         },
@@ -123,7 +123,7 @@ var env = {
                 host: "localhost",
                 file: "test/index.html",
                 open: false,
-                watch: env.DIST_DIR
+                watch: env.DEST_DIR
             });
         },
         
