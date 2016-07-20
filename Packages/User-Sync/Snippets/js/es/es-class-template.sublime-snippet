@@ -2,7 +2,7 @@
     <content><![CDATA[
 /* ${1:Description of class.}
 */
-class ${2:ClassName} {
+${3:export ${2:default }}class ${4:ClassName} {
     //
     // STATIC PROPERTIES
     //
@@ -14,13 +14,13 @@ class ${2:ClassName} {
     // Reference to self.
     _self = this;
     
-    /* Constructor for ${2:ClassName}.
+    /* Constructor for ${4:ClassName}.
     */
     constructor() {${0}}
     
-    /* Destructor for ${2:ClassName}.
+    /* Destructor for ${4:ClassName}.
         
-        c - ${2:ClassName} instance.
+        c - ${4:ClassName} instance.
     */
     static destroy(c) {
         c._self = null;

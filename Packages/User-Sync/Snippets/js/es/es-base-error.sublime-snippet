@@ -2,7 +2,7 @@
     <content><![CDATA[
 /* Extendable error base class.
 */
-export default class BaseError extends Error {
+${2:export ${1:default }}class BaseError extends Error {
     /* Constructor for BaseError.
         
         msg - Error message to display.
