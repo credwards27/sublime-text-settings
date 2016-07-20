@@ -7,7 +7,7 @@
  *
  * @return ${3}
  */
-${2} function ${4:functionName}(${5:\$param}) {
+${2} function ${4:functionName}(${5:\$param}) {${0}
 }
 ]]></content>
     <!-- Optional: Tab trigger to activate the snippet -->

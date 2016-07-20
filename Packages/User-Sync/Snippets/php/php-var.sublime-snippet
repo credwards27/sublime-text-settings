@@ -6,7 +6,7 @@
  * @access ${2:private}
  * @var ${3}
  */
-${2} \$${4:varName}${5};
+${2} \$${4:varName} = ${5:null};
 ]]></content>
     <!-- Optional: Tab trigger to activate the snippet -->
     <tabTrigger>///var</tabTrigger>
