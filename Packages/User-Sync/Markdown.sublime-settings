@@ -1,9 +1,6 @@
 {
 	"color_scheme": "Packages/Color Scheme - User-Sync/Slate.tmTheme",
 	
-	// Behavior
-	"translate_tabs_to_spaces": false,
-	
 	// Layout
 	"draw_centered": false,
 	"word_wrap": false,
