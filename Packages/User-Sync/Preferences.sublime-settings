@@ -25,6 +25,7 @@
 	"scroll_past_end": true,
 	"scroll_speed": 2.0,
 	"shift_tab_unindent": false,
+	"show_definitions": false,
 	"show_encoding": true,
 	"show_line_endings": true,
 	"theme": "Soda Dark 3.sublime-theme",
