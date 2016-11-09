@@ -34,12 +34,10 @@ function ${1:MyClass}() {
 //
 
 /* Destructor for ${1:MyClass}. Private properties should be destroyed using a
- * privileged destructor method implemented on the class.
-    
-    c - ${1:MyClass} instance.
+    privileged destructor method implemented on the class.
 */
-${1:MyClass}.prototype.destroy = function(c) {
-    c._self = null;
+${1:MyClass}.prototype.destroy = function() {
+    this._self = null;
 };
 
 //

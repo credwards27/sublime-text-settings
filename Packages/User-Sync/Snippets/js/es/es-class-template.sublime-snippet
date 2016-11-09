@@ -16,10 +16,8 @@ ${3:export ${2:default }}class ${4:ClassName} {
     constructor() {${0}}
     
     /* Destructor for ${4:ClassName}.
-        
-        c - ${4:ClassName} instance.
     */
-    static destroy(c) {}
+    destroy() {}
     
     //
     // STATIC METHODS
