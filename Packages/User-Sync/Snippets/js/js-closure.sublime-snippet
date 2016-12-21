@@ -1,12 +1,14 @@
 <snippet>
     <content><![CDATA[
-// ${1:Description of variable.}
-${2:var }${3:myVariable} = ${4:null},${0}
+(function(${1:params}) {
+    return function() {${0}
+    };
+})(${2:args})
 ]]></content>
     <!-- Optional: Tab trigger to activate the snippet -->
-    <tabTrigger>///var</tabTrigger>
+    <tabTrigger>///close</tabTrigger>
     <!-- Optional: Scope the tab trigger will be active in -->
     <scope>source.js, source.embedded.js.html</scope>
     <!-- Optional: Description to show in the menu -->
-    <description>JS Variable Template</description>
+    <description>JS Closure</description>
 </snippet>
