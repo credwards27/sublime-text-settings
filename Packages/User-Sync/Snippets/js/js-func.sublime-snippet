@@ -1,8 +1,7 @@
 <snippet>
     <content><![CDATA[
-/**
- * ${1:Description of function.}
- */
+/* ${1:Description of function.}
+*/
 function ${2:myFunction}(${3:param}) {${0}
 }
 ]]></content>

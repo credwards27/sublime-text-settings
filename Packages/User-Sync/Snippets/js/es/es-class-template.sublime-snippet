@@ -1,8 +1,7 @@
 <snippet>
     <content><![CDATA[
-/**
- * ${1:Description of class.}
- */
+/* ${1:Description of class.}
+*/
 ${3:export ${2:default }}class ${4:ClassName} {
     //
     // STATIC PROPERTIES
@@ -12,14 +11,12 @@ ${3:export ${2:default }}class ${4:ClassName} {
     // PROPERTIES
     //
     
-    /**
-     * Constructor for ${4:ClassName}.
-     */
+    /* Constructor for ${4:ClassName}.
+    */
     constructor() {${0}}
     
-    /**
-     * Destructor for ${4:ClassName}.
-     */
+    /* Destructor for ${4:ClassName}.
+    */
     destroy() {}
     
     //

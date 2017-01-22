@@ -1,8 +1,7 @@
 <snippet>
     <content><![CDATA[
-/**
- * Constructor for ${1:MyClass} object.
- */
+/* Constructor for ${1:MyClass} object.
+*/
 function ${1:MyClass}() {
     // Default parameters
     
@@ -34,10 +33,9 @@ function ${1:MyClass}() {
 // STATIC FUNCTIONS
 //
 
-/**
- * Destructor for ${1:MyClass}. Private properties should be destroyed using a
- * privileged destructor method implemented on the class.
- */
+/* Destructor for ${1:MyClass}. Private properties should be destroyed using a
+    privileged destructor method implemented on the class.
+*/
 ${1:MyClass}.prototype.destroy = function() {
     this._self = null;
 };

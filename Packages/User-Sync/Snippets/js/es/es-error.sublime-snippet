@@ -1,14 +1,12 @@
 <snippet>
     <content><![CDATA[
-/**
- * ${1:ErrorName} class.
- */
+/* ${1:ErrorName} class.
+*/
 class ${1:ErrorName} extends BaseError {
-    /**
-     * Constructor for ${1:ErrorName}.
-     *
-     * msg - Error message to display.
-     */
+    /* Constructor for ${1:ErrorName}.
+        
+        msg - Error message to display.
+    */
     constructor(msg) {
         super(msg);
     }
