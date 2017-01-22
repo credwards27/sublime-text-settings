@@ -1,9 +1,10 @@
 <snippet>
     <content><![CDATA[
-/* ${TM_FILENAME}
-    
-    ${1:Description of file.}
-*/
+/**
+ * ${TM_FILENAME}
+ *
+ * ${1:Description of file.}
+ */
 
 ]]></content>
     <!-- Optional: Tab trigger to activate the snippet -->

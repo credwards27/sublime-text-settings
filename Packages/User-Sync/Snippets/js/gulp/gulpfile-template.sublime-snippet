@@ -34,26 +34,30 @@ var env = {
     
     // Collection of task handler functions.
     tasks = {${0}
-        /* Makes all subsequent tasks run in production mode (if supported).
-        */
+        /**
+         * Makes all subsequent tasks run in production mode (if supported).
+         */
         "prod-mode": function() {
             env.prodMode = true;
         },
         
-        /* Watches the project for changes and recompiles.
-        */
+        /**
+         * Watches the project for changes and recompiles.
+         */
         watch: function() {
             gulp.watch(env.SRC_DIR + "/**/*.js", [ "js" ]);
         },
         
-        /* Clears the build destination directories for a clean build.
-        */
+        /**
+         * Clears the build destination directories for a clean build.
+         */
         clean: function() {
             return del([ env.DEST_DIR + "/**/*" ]);
         },
         
-        /* JS build task.
-        */
+        /**
+         * JS build task.
+         */
         js: function() {
             console.log("Compiling scripts...");
             
@@ -107,14 +111,16 @@ var env = {
         // Complete build task.
         build: [ "js" ],
         
-        /* Production build task.
-        */
+        /**
+         * Production build task.
+         */
         deploy: function() {
             runSequence("clean", "prod-mode", "build");
         },
         
-        /* Live development server task.
-        */
+        /**
+         * Live development server task.
+         */
         server: function() {
             runSequence("build", "watch");
             

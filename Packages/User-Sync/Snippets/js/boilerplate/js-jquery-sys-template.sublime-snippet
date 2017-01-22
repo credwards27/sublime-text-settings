@@ -1,21 +1,24 @@
 <snippet>
     <content><![CDATA[
-/* ${TM_FILENAME}
-    
-    ${1:Description of self-contained jQuery system.}
-    
-    Requires jQuery ${2:x.x.x} or higher.
-    
-    Version 0.0.1
-*/
+/**
+ * ${TM_FILENAME}
+ *
+ * ${1:Description of self-contained jQuery system.}
+ *
+ * Requires jQuery ${2:x.x.x} or higher.
+ *
+ * Version 0.0.1
+ */
 
 ;(function(env, undefined) {
 
 "use strict";
 
-/* Global system controller.
-    \$ - Localized reference active jQuery instance at script load time.
-*/
+/**
+ * Global system controller.
+ *
+ * \$ - Localized reference active jQuery instance at script load time.
+ */
 var ${3:mySystem} = ${3:mySystem} || (function(\$) {
     // Create system instance
     var sys = function(args) { return new sys.fn.init(args); };
@@ -33,9 +36,11 @@ var ${3:mySystem} = ${3:mySystem} || (function(\$) {
         // STATIC PROTOTYPE FUNCTIONS
         //
         
-        /* Default initializer function.
-            args - Arguments.
-        */
+        /**
+         * Default initializer function.
+         *
+         * args - Arguments.
+         */
         init: function(args) {
             return this;
         },
