@@ -74,6 +74,7 @@ var env = {
                         rollupBabel({
                             presets: [ "es2015-rollup" ],
                             plugins: [
+                                "transform-es2015-parameters",
                                 "transform-class-properties",
                                 [ "babel-plugin-transform-builtin-extend", {
                                     globals: [ "Error" ]
