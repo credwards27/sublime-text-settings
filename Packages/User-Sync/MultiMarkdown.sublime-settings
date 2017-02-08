@@ -3,7 +3,7 @@
 	
 	// Layout
 	"draw_centered": false,
-	"word_wrap": false,
+	"word_wrap": true,
 	"rulers": [
 		80,
 		100
