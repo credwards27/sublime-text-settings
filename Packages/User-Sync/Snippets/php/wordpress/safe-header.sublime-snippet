@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+!defined('ABSPATH') && exit;
+]]></content>
+    <!-- Optional: Tab trigger to activate the snippet -->
+    <tabTrigger>///wpsafe</tabTrigger>
+    <!-- Optional: Scope the tab trigger will be active in -->
+    <scope>source.php</scope>
+    <!-- Optional: Description to show in the menu -->
+    <description>WordPress Safe File Header</description>
+</snippet>
