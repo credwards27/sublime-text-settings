@@ -3,11 +3,12 @@
 !/Packages/**/
 
 # Whitelist configuration and theme files
-!/Packages/Color\ Scheme\ -\ User-Sync/*
-!/Packages/User-Sync/*.sublime-settings
-!/Packages/User-Sync/*.sublime-theme
-!/Packages/User-Sync/Key\ Mapping/*.sublime-keymap
-!/Packages/User-Sync/Snippets/**/*.sublime-snippet
+!/Packages/Color\ Scheme\ -\ User-Sync/**/*.tmTheme
+!/Packages/User-Sync/**/*.sublime-settings
+!/Packages/User-Sync/**/*.sublime-theme
+!/Packages/User-Sync/**/*.sublime-keymap
+!/Packages/User-Sync/**/*.sublime-snippet
+!/Packages/User-Sync/**/*.json
 
 # Config file whitelist (for files that are commonly ignored globally)
 !sftp-config.json
