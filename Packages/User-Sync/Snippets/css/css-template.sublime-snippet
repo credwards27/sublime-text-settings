@@ -2,7 +2,7 @@
     <content><![CDATA[
 @charset "UTF-8";
 
-/* meta */
+/* Meta */
 
 body {
     margin: 0;
@@ -13,7 +13,7 @@ body * {
     box-sizing: border-box;
 }
 
-/* layout */
+/* Layout */
 
 ]]></content>
     <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
