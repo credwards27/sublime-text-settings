@@ -4,19 +4,7 @@ Environment settings for Sublime Text 2/3.
 
 ## Packages
 
-The following packages should be installed:
-
-- Package Control (https://packagecontrol.io/)
-- Base16 Color Schemes
-- GitGutter
-- LESS
-- MarkdownEditing
-- SFTP
-- SideBarEnhancements
-- Syntax Highlighting for SASS
-- Theme - Soda
-- TrailingSpaces
-- TypeScript
+See `installed_packages` in [Package Control preferences](Packages/User-Sync/Package%20Control.sublime-settings) for shared default packages that will be installed.
 
 ## Usage
 
