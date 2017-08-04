@@ -411,7 +411,7 @@
 			<key>name</key>
 			<string>Attribute IDs</string>
 			<key>scope</key>
-			<string>entity.other.attribute-name.id, punctuation.definition.entity</string>
+			<string>entity.other.attribute-name.id, punctuation.definition.entity, source.scss entity.other.attribute-selector.sass</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -477,7 +477,7 @@
 			<key>name</key>
 			<string>Selector</string>
 			<key>scope</key>
-			<string>meta.selector</string>
+			<string>meta.selector, source.scss keyword.operator, source.scss comment.punctuation.comma</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
