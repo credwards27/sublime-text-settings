@@ -1,0 +1,58 @@
+<snippet>
+    <content><![CDATA[
+#!/usr/bin/env node
+
+///jsh${1}${0}
+"use strict";
+
+// Dependencies.
+const minimist = require("minimist"),
+    minimistOpts = require("minimist-options"),
+    fs = require("fs"),
+    
+    // Script parameter options.
+    ARG_OPTS = {
+        help: {
+            type: "boolean"
+        }
+    },
+    
+    // Command line arguments.
+    ARGS = minimist(process.argv.slice(2), minimistOpts(ARG_OPTS));
+
+/* Shows an error message and exits.
+    
+    msg - Error message to display.
+    help - True to show the help text in addition to the error, false otherwise.
+*/
+function showError(msg, help) {
+    console.log(msg);
+    
+    if (help) {
+        showHelp();
+    }
+    else {
+        process.exit();
+    }
+}
+
+/* Shows the help text.
+*/
+function showHelp() {
+    process.exit();
+}
+
+// Main execution entry point
+;(function(undefined) {
+    if (ARGS["help"]) {
+        showHelp();
+    }
+})(void 0);
+]]></content>
+    <!-- Optional: Tab trigger to activate the snippet -->
+    <tabTrigger>///nodecli</tabTrigger>
+    <!-- Optional: Scope the tab trigger will be active in -->
+    <scope>source.js</scope>
+    <!-- Optional: Description to show in the menu -->
+    <description>Node CLI Script Boilerplate Template</description>
+</snippet>
