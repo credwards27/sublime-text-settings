@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[
+for (${1:k} in ${2:obj}) {
+    if (!${2}.hasOwnProperty(${1})) {${3: }continue;${4: }}${0}
+}
+]]></content>
+    <!-- Optional: Tab trigger to activate the snippet -->
+    <tabTrigger>///forin</tabTrigger>
+    <!-- Optional: Scope the tab trigger will be active in -->
+    <scope>source.js, source.embedded.js.html</scope>
+    <!-- Optional: Description to show in the menu -->
+    <description>JS For...In Loop Boilerplate</description>
+</snippet>
