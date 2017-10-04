@@ -64,7 +64,7 @@ var ${3:mySystem} = ${3:mySystem} || (function(\$) {
     <!-- Optional: Tab trigger to activate the snippet -->
     <tabTrigger>///jqsys</tabTrigger>
     <!-- Optional: Scope the tab trigger will be active in -->
-    <scope>source.js</scope>
+    <scope>source.js, source.embedded.js.html</scope>
     <!-- Optional: Description to show in the menu -->
     <description>JS jQuery self-contained system boilerplate</description>
 </snippet>

@@ -31,7 +31,7 @@ ${3:export ${2:default }}class ${4:ClassName} {
     <!-- Optional: Tab trigger to activate the snippet -->
     <tabTrigger>///esclass</tabTrigger>
     <!-- Optional: Scope the tab trigger will be active in -->
-    <scope>source.js</scope>
+    <scope>source.js, source.embedded.js.html</scope>
     <!-- Optional: Description to show in the menu -->
     <description>ESNext class template</description>
 </snippet>

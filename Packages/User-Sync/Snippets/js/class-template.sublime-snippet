@@ -47,7 +47,7 @@ ${1:MyClass}.prototype.destroy = function() {
     <!-- Optional: Tab trigger to activate the snippet -->
     <tabTrigger>///class</tabTrigger>
     <!-- Optional: Scope the tab trigger will be active in -->
-    <scope>source.js</scope>
+    <scope>source.js, source.embedded.js.html</scope>
     <!-- Optional: Description to show in the menu -->
     <description>JS class template (vanilla)</description>
 </snippet>

@@ -1,8 +1,8 @@
 <snippet>
     <content><![CDATA[
-/* ${1:myFile}.js
+/* ${TM_FILENAME}.js
     
-    ${2:Description of file.}
+    ${1:Description of file.}
 */
 
 ;(function(chrome, app, w, undefined) {
@@ -16,7 +16,7 @@
     <!-- Optional: Tab trigger to activate the snippet -->
     <tabTrigger>///jscab</tabTrigger>
     <!-- Optional: Scope the tab trigger will be active in -->
-    <scope>source.js</scope>
+    <scope>source.js, source.embedded.js.html</scope>
     <!-- Optional: Description to show in the menu -->
     <description>Chrome app background script boilerplate</description>
 </snippet>
