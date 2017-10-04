@@ -18,5 +18,5 @@
     <!-- Optional: Scope the tab trigger will be active in -->
     <scope>source.js</scope>
     <!-- Optional: Description to show in the menu -->
-    <description>Chrome app background script template</description>
+    <description>Chrome app background script boilerplate</description>
 </snippet>

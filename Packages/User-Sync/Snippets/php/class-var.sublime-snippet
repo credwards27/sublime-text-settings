@@ -13,5 +13,5 @@ ${2} \$${4:varName} = ${5:null};
     <!-- Optional: Scope the tab trigger will be active in -->
     <scope>source.php</scope>
     <!-- Optional: Description to show in the menu -->
-    <description>PHP Variable Declaration</description>
+    <description>PHP class property declaration</description>
 </snippet>

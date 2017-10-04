@@ -17,5 +17,5 @@ class ${1:ErrorName} extends BaseError {
     <!-- Optional: Scope the tab trigger will be active in -->
     <scope>source.js, source.embedded.js.html</scope>
     <!-- Optional: Description to show in the menu -->
-    <description>ESNext Error Class</description>
+    <description>ESNext custom error class</description>
 </snippet>

@@ -12,5 +12,5 @@ const ${2:CONST_NAME} = ${3:value};
     <!-- Optional: Scope the tab trigger will be active in -->
     <scope>source.php</scope>
     <!-- Optional: Description to show in the menu -->
-    <description>PHP Constant Declaration</description>
+    <description>PHP class constant declaration</description>
 </snippet>

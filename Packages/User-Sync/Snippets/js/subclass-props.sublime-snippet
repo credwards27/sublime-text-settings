@@ -9,5 +9,5 @@ ${1:MyClass}.prototype.constructor = ${1:MyClass};
     <!-- Optional: Scope the tab trigger will be active in -->
     <scope>source.js</scope>
     <!-- Optional: Description to show in the menu -->
-    <description>JS Class Inheritance Template</description>
+    <description>JS class inheritance boilerplate</description>
 </snippet>

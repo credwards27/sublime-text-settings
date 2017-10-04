@@ -15,5 +15,5 @@ ${2} function ${4:functionName}(${5:\$param}) {${0}
     <!-- Optional: Scope the tab trigger will be active in -->
     <scope>source.php</scope>
     <!-- Optional: Description to show in the menu -->
-    <description>PHP Empty Function</description>
+    <description>PHP class method declaration</description>
 </snippet>

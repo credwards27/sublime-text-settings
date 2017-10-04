@@ -265,5 +265,5 @@ function getArgs(arg) {
     <!-- Optional: Scope the tab trigger will be active in -->
     <scope>source.js</scope>
     <!-- Optional: Description to show in the menu -->
-    <description>Gulpfile Boilerplate Template</description>
+    <description>Gulpfile boilerplate</description>
 </snippet>

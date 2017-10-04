@@ -54,5 +54,5 @@ function showHelp() {
     <!-- Optional: Scope the tab trigger will be active in -->
     <scope>source.js</scope>
     <!-- Optional: Description to show in the menu -->
-    <description>Node CLI Script Boilerplate Template</description>
+    <description>Node CLI script boilerplate</description>
 </snippet>

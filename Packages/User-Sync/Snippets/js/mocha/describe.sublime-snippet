@@ -8,5 +8,5 @@ describe("${1:Behavior}", function() {${0}
     <!-- Optional: Scope the tab trigger will be active in -->
     <scope>source.js</scope>
     <!-- Optional: Description to show in the menu -->
-    <description>Mocha Describe Block</description>
+    <description>Mocha 'describe' block</description>
 </snippet>

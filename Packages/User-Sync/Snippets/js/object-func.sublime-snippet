@@ -10,5 +10,5 @@ ${2:myFunction}: function(${3:param}) {${0}
     <!-- Optional: Scope the tab trigger will be active in -->
     <scope>source.js, source.embedded.js.html</scope>
     <!-- Optional: Description to show in the menu -->
-    <description>JS Object Property Function Template</description>
+    <description>JS function declaration (object property)</description>
 </snippet>

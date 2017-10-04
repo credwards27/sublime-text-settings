@@ -33,5 +33,5 @@ ${3:export ${2:default }}class ${4:ClassName} {
     <!-- Optional: Scope the tab trigger will be active in -->
     <scope>source.js</scope>
     <!-- Optional: Description to show in the menu -->
-    <description>ESNext Class Template</description>
+    <description>ESNext class template</description>
 </snippet>

@@ -66,5 +66,5 @@ var ${3:mySystem} = ${3:mySystem} || (function(\$) {
     <!-- Optional: Scope the tab trigger will be active in -->
     <scope>source.js</scope>
     <!-- Optional: Description to show in the menu -->
-    <description>JS jQuery self-contained system template</description>
+    <description>JS jQuery self-contained system boilerplate</description>
 </snippet>

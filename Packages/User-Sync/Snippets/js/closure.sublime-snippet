@@ -10,5 +10,5 @@
     <!-- Optional: Scope the tab trigger will be active in -->
     <scope>source.js, source.embedded.js.html</scope>
     <!-- Optional: Description to show in the menu -->
-    <description>JS Closure</description>
+    <description>JS closure</description>
 </snippet>

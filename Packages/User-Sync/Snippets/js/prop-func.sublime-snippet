@@ -10,5 +10,5 @@ ${2:this.}${3:myFunction} = function(${4:param}) {${0}
     <!-- Optional: Scope the tab trigger will be active in -->
     <scope>source.js, source.embedded.js.html</scope>
     <!-- Optional: Description to show in the menu -->
-    <description>JS Property Function Template</description>
+    <description>JS function declaration (property)</description>
 </snippet>

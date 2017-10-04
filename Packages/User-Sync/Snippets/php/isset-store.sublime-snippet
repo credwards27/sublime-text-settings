@@ -7,5 +7,5 @@
     <!-- Optional: Scope the tab trigger will be active in -->
     <scope>source.php</scope>
     <!-- Optional: Description to show in the menu -->
-    <description>PHP Safe isset() Store</description>
+    <description>PHP safe isset() and assignment</description>
 </snippet>

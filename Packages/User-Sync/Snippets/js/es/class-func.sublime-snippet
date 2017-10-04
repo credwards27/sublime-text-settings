@@ -10,5 +10,5 @@ ${2:static }${3:myFunction}(${4:param}) {${0}
     <!-- Optional: Scope the tab trigger will be active in -->
     <scope>source.js, source.embedded.js.html</scope>
     <!-- Optional: Description to show in the menu -->
-    <description>ESNext Class Method Template</description>
+    <description>ESNext class method</description>
 </snippet>

@@ -11,5 +11,5 @@
     <!-- Optional: Scope the tab trigger will be active in -->
     <scope>source.js, source.embedded.js.html</scope>
     <!-- Optional: Description to show in the menu -->
-    <description>JS File Header</description>
+    <description>JS file header</description>
 </snippet>

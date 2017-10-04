@@ -17,5 +17,5 @@
     <!-- Optional: Scope the tab trigger will be active in -->
     <scope>text.html, text.php</scope>
     <!-- Optional: Description to show in the menu -->
-    <description>HTML template</description>
+    <description>HTML file boilerplate</description>
 </snippet>

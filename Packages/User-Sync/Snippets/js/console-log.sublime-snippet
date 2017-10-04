@@ -7,5 +7,5 @@ console.log(${1});
     <!-- Optional: Scope the tab trigger will be active in -->
     <scope>source.js, source.embedded.js.html</scope>
     <!-- Optional: Description to show in the menu -->
-    <description>JS Console Log</description>
+    <description>JS console log</description>
 </snippet>

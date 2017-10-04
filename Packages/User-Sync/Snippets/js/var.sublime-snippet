@@ -8,5 +8,5 @@ ${2:var }${3:myVariable} = ${4:null},${0}
     <!-- Optional: Scope the tab trigger will be active in -->
     <scope>source.js, source.embedded.js.html</scope>
     <!-- Optional: Description to show in the menu -->
-    <description>JS Variable Template</description>
+    <description>JS variable</description>
 </snippet>
