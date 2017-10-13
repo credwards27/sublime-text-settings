@@ -3,15 +3,17 @@
 /**
  * ${1}
  *
- * @return ${2}
+ * @access ${2:public}
+ *
+ * @return ${3}
  */
-function ${3:functionName}(${4:\$param}) {${0}
+${2} function ${4:functionName}(${5:\$param}) {${0}
 }
 ]]></content>
     <!-- Optional: Tab trigger to activate the snippet -->
-    <tabTrigger>///func</tabTrigger>
+    <tabTrigger>///cfunc</tabTrigger>
     <!-- Optional: Scope the tab trigger will be active in -->
-    <scope>source.php</scope>
+    <scope>meta.class.php</scope>
     <!-- Optional: Description to show in the menu -->
-    <description>PHP function declaration</description>
+    <description>PHP class method declaration</description>
 </snippet>
