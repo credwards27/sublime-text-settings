@@ -18,7 +18,8 @@ const minimist = require("minimist"),
     },
     
     // Command line arguments.
-    ARGS = minimist(process.argv.slice(2), minimistOpts(ARG_OPTS));
+    ARGS = Object.freeze(
+        minimist(process.argv.slice(2), minimistOpts(ARG_OPTS)));
 
 /* Shows an error message and exits.
     
@@ -26,7 +27,7 @@ const minimist = require("minimist"),
     help - True to show the help text in addition to the error, false otherwise.
 */
 function showError(msg, help) {
-    console.log(msg);
+    console.error(msg);
     
     if (help) {
         showHelp();
