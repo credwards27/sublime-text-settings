@@ -1,4 +1,11 @@
+// Markdown GFM settings
 {
+	"extensions":
+	[
+		"md",
+		"mdown"
+	],
+	
 	"color_scheme": "Packages/Color Scheme - User-Sync/Slate.tmTheme",
 	
 	// Layout
