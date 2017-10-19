@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+for (${1:i}=${3:${2:arr}.length}; ${1}>=0; --${1}) {${0}
+}
+]]></content>
+    <!-- Optional: Tab trigger to activate the snippet -->
+    <tabTrigger>///rfor</tabTrigger>
+    <!-- Optional: Scope the tab trigger will be active in -->
+    <scope>source.js, source.embedded.js.html</scope>
+    <!-- Optional: Description to show in the menu -->
+    <description>JS reverse for loop boilerplate</description>
+</snippet>
