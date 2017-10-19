@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-for (${1:i}=${3:${2:arr}.length}; ${1}>=0; --${1}) {${0}
+for (${1:i}=${3:${2:arr}.length}; ${1}>=${4:0}; --${1}) {${0}
 }
 ]]></content>
     <!-- Optional: Tab trigger to activate the snippet -->
