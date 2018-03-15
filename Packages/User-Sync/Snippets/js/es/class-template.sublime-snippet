@@ -2,7 +2,7 @@
     <content><![CDATA[
 /* ${1:Description of class.}
 */
-${3:export ${2:default }}class ${4:ClassName} {
+${3:export ${2:default }}class ${4:ClassName} ${6:extends ${5:ParentClassName} }{
     //
     // STATIC PROPERTIES
     //
