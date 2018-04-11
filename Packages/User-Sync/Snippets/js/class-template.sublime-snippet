@@ -6,42 +6,32 @@ function ${1:MyClass}() {
     // Default parameters
     
     //
-    // PRIVATE VARIABLES
-    //
-    
-    //
-    // PUBLIC VARIABLES
-    //
-    
-    // Reference to self.
-    this._self = this;
-    
-    //
-    // PRIVILEGED FUNCTIONS
-    //
-    
-    //
-    // PRIVATE FUNCTIONS
+    // PROPERTIES
     //
     
     // Initializer
-    (function() {${0}
+    ;(function() {
     })();
 }
 
-//
-// STATIC FUNCTIONS
-//
-
-/* Destructor for ${1:MyClass}. Private properties should be destroyed using a
-    privileged destructor method implemented on the class.
-*/
-${1:MyClass}.prototype.destroy = function() {
-    this._self = null;
+${1:MyClass}.prototype = {
+    constructor: ${1:MyClass},
+    
+    /* Destructor for ${1:MyClass}.
+    */
+    destroy: function() {},
+    
+    //
+    // METHODS
+    //${0}
 };
 
 //
-// STATIC INITIALIZERS
+// STATIC PROPERTIES
+//
+
+//
+// STATIC METHODS
 //
 ]]></content>
     <!-- Optional: Tab trigger to activate the snippet -->
