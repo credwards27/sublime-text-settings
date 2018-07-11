@@ -4,22 +4,26 @@
 	],
 	"installed_packages":
 	[
+		"ApacheConf",
 		"AutoSoftWrap",
 		"Babel",
+		"Base Encoder",
 		"Base16 Color Schemes",
 		"BinaryPlist",
 		"Chmod",
 		"Color Highlighter",
 		"Emmet",
+		"Git blame",
 		"GitGutter",
 		"Handlebars",
 		"HexViewer",
+		"JsFormat",
 		"LESS",
 		"MarkdownEditing",
 		"PHP Syntax Checker",
+		"Sass",
 		"ScopeHunter",
 		"SideBarEnhancements",
-		"Syntax Highlighting for Sass",
 		"Theme - Soda",
 		"TrailingSpaces"
 	]
