@@ -1,3 +1,4 @@
 {
-    "live_mode": false
+    "live_mode": false,
+    "show_line_annotation": false
 }
