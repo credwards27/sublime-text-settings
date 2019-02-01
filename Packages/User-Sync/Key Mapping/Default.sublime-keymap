@@ -7,5 +7,7 @@
     
     { "keys": [ "shift+super+r" ], "command": "refresh_folder_list" },
     
-    { "keys": [ "shift+alt+super+p" ], "command": "get_selection_scope" }
+    { "keys": [ "shift+alt+super+p" ], "command": "get_selection_scope" },
+    
+    { "keys": [ "shift+alt+super+n" ], "command": "new_window_for_project" }
 ]
