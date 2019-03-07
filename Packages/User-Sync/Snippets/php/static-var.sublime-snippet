@@ -1,0 +1,15 @@
+<snippet>
+    <content><![CDATA[
+static \$${1:varName} = null;
+
+if (null === \$${1:varName}) {
+    \$${1:varName} = ${2:null};${0}
+}
+]]></content>
+    <!-- Optional: Tab trigger to activate the snippet -->
+    <tabTrigger>///svar</tabTrigger>
+    <!-- Optional: Scope the tab trigger will be active in -->
+    <scope>source.php meta.function.php</scope>
+    <!-- Optional: Description to show in the menu -->
+    <description>PHP function declaration</description>
+</snippet>
