@@ -26,6 +26,9 @@
 	"caret_extra_top": 0,
 	"caret_extra_bottom": 0,
 	
+	// Auto increments ordered list number. Set to false if you want always "1".
+	"mde.auto_increment_ordered_list_number": false,
+	
 	// Automatically switches list bullet when indenting blank list item with
 	// <Tab>.
 	"mde.list_indent_auto_switch_bullet": false
