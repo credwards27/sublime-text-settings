@@ -81,7 +81,7 @@
 			<key>name</key>
 			<string>Punctuation</string>
 			<key>scope</key>
-			<string>punctuation.definition.string, punctuation.definition.parameters, punctuation.definition.array</string>
+			<string>punctuation.definition.string, punctuation.definition.parameters, punctuation.definition.array, punctuation.section.group, punctuation.section.block, punctuation.section.brackets</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
