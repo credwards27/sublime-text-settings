@@ -1,0 +1,25 @@
+<snippet>
+    <content><![CDATA[
+${4:/* Getter for ${1:prop}.
+    
+    Returns${3: the current ${2:alias} value.}
+*/
+get ${2:alias}() {
+    return this.${1:prop};
+\}
+}${7:
+/* Setter for ${1:prop}.
+    
+    ${5:val} - ${6:New value for ${2:alias}.}
+*/
+set ${2:alias}(${5:val}) {
+    this.${1:prop} = ${5:val};
+\}}${0}
+]]></content>
+    <!-- Optional: Tab trigger to activate the snippet -->
+    <tabTrigger>///gs</tabTrigger>
+    <!-- Optional: Scope the tab trigger will be active in -->
+    <scope>source.js, source.embedded.js.html</scope>
+    <!-- Optional: Description to show in the menu -->
+    <description>JS class getter/setter declaration</description>
+</snippet>
