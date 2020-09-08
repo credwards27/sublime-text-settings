@@ -9,6 +9,7 @@
 !/Packages/User-Sync/**/*.sublime-keymap
 !/Packages/User-Sync/**/*.sublime-snippet
 !/Packages/User-Sync/**/*.json
+!/Packages/User-Sync/**/*.py
 
 # Config file whitelist (for files that are commonly ignored globally)
 !sftp-config.json

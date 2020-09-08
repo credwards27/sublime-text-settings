@@ -9,5 +9,9 @@
     
     { "keys": [ "shift+alt+super+p" ], "command": "get_selection_scope" },
     
-    { "keys": [ "shift+alt+super+n" ], "command": "new_window_for_project" }
+    { "keys": [ "shift+alt+super+n" ], "command": "new_window_for_project" },
+    
+    { "keys": [ "alt+super+=" ], "command": "increase_local_font_size" },
+    { "keys": [ "alt+super+-" ], "command": "decrease_local_font_size" },
+    { "keys": [ "alt+super+0" ], "command": "reset_local_font_size" }
 ]
