@@ -11,7 +11,7 @@ function ${1:MyClass}() {
     
     // Initializer
     ;(function() {
-    })();
+    }).bind(this)();
 }
 
 ${1:MyClass}.prototype = {
