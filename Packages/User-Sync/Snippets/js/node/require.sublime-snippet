@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+${1:const }${2:dep} = require("${3}"),${0}
+]]></content>
+    <!-- Optional: Tab trigger to activate the snippet -->
+    <tabTrigger>///req</tabTrigger>
+    <!-- Optional: Scope the tab trigger will be active in -->
+    <scope>source.js</scope>
+    <!-- Optional: Description to show in the menu -->
+    <description>Node require() call</description>
+</snippet>

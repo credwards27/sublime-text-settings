@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+import ${1:dep} from "${2}";${0}
+]]></content>
+    <!-- Optional: Tab trigger to activate the snippet -->
+    <tabTrigger>///imp</tabTrigger>
+    <!-- Optional: Scope the tab trigger will be active in -->
+    <scope>source.js</scope>
+    <!-- Optional: Description to show in the menu -->
+    <description>Node require() call</description>
+</snippet>
