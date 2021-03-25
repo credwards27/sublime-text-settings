@@ -1,0 +1,14 @@
+<snippet>
+    <content><![CDATA[
+/* ${1:Description of function.}
+*/
+${2:myFunction} = (${3:param}) => {${0}
+};
+]]></content>
+    <!-- Optional: Tab trigger to activate the snippet -->
+    <tabTrigger>///cafunc</tabTrigger>
+    <!-- Optional: Scope the tab trigger will be active in -->
+    <scope>source.js, source.embedded.js.html</scope>
+    <!-- Optional: Description to show in the menu -->
+    <description>ESNext class arrow method</description>
+</snippet>
