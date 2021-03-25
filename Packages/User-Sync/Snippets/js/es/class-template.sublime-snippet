@@ -13,7 +13,7 @@ ${3:export ${2:default }}class ${4:ClassName} ${6:extends ${5:ParentClassName} }
     
     /* Constructor for ${4:ClassName}.
     */
-    constructor() {${0}}
+    constructor(${7}) {${0}}
     
     /* Destructor for ${4:ClassName}.
     */
