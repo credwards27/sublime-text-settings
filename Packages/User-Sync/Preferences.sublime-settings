@@ -1,5 +1,6 @@
 {
 	"always_show_minimap_viewport": true,
+	"auto_complete_use_index": false,
 	"bold_folder_labels": true,
 	"caret_style": "blink",
 	"close_windows_when_empty": false,
