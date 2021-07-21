@@ -8,7 +8,7 @@ ${2:myFunction}: function(${3:param}) {${0}
     <!-- Optional: Tab trigger to activate the snippet -->
     <tabTrigger>///ofunc</tabTrigger>
     <!-- Optional: Scope the tab trigger will be active in -->
-    <scope>source.js, source.embedded.js.html</scope>
+    <scope>source.js, source.jsx, source.ts, source.tsx, source.embedded.js.html</scope>
     <!-- Optional: Description to show in the menu -->
     <description>JS function declaration (object property)</description>
 </snippet>

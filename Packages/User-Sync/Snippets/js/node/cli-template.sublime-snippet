@@ -53,7 +53,7 @@ function showHelp() {
     <!-- Optional: Tab trigger to activate the snippet -->
     <tabTrigger>///nodecli</tabTrigger>
     <!-- Optional: Scope the tab trigger will be active in -->
-    <scope>source.js</scope>
+    <scope>source.js, source.jsx, source.ts, source.tsx</scope>
     <!-- Optional: Description to show in the menu -->
     <description>Node CLI script boilerplate</description>
 </snippet>

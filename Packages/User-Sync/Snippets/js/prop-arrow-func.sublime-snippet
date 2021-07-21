@@ -8,7 +8,7 @@ ${2:this.}${3:myFunction} = (${4:param}) => {${0}
     <!-- Optional: Tab trigger to activate the snippet -->
     <tabTrigger>///pafunc</tabTrigger>
     <!-- Optional: Scope the tab trigger will be active in -->
-    <scope>source.js, source.embedded.js.html</scope>
+    <scope>source.js, source.jsx, source.ts, source.tsx, source.embedded.js.html</scope>
     <!-- Optional: Description to show in the menu -->
     <description>JS arrow function declaration (property)</description>
 </snippet>

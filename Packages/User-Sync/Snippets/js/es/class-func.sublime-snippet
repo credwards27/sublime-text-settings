@@ -9,7 +9,7 @@ ${2:static }${3:myFunction}(${4:param}) {
     <!-- Optional: Tab trigger to activate the snippet -->
     <tabTrigger>///cfunc</tabTrigger>
     <!-- Optional: Scope the tab trigger will be active in -->
-    <scope>source.js, source.embedded.js.html</scope>
+    <scope>source.js, source.jsx, source.ts, source.tsx, source.embedded.js.html</scope>
     <!-- Optional: Description to show in the menu -->
     <description>ESNext class method</description>
 </snippet>

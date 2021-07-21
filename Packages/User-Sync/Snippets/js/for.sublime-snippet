@@ -6,7 +6,7 @@ for (${1:var }${2:i}=${3:0}${7:, ${4:l}=${6:${5:arr}.length}}; ${2}<${8:${4}}; +
     <!-- Optional: Tab trigger to activate the snippet -->
     <tabTrigger>///for</tabTrigger>
     <!-- Optional: Scope the tab trigger will be active in -->
-    <scope>source.js, source.embedded.js.html</scope>
+    <scope>source.js, source.jsx, source.ts, source.tsx, source.embedded.js.html</scope>
     <!-- Optional: Description to show in the menu -->
     <description>JS for loop boilerplate</description>
 </snippet>

@@ -6,7 +6,7 @@ it("${1:expected behavior}", function() {${0}
     <!-- Optional: Tab trigger to activate the snippet -->
     <tabTrigger>///mit</tabTrigger>
     <!-- Optional: Scope the tab trigger will be active in -->
-    <scope>source.js</scope>
+    <scope>source.js, source.jsx, source.ts, source.tsx</scope>
     <!-- Optional: Description to show in the menu -->
     <description>Mocha 'it' block</description>
 </snippet>

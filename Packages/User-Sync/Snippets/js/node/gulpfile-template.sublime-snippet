@@ -263,7 +263,7 @@ function getArgs(arg) {
     <!-- Optional: Tab trigger to activate the snippet -->
     <tabTrigger>///gulpfile</tabTrigger>
     <!-- Optional: Scope the tab trigger will be active in -->
-    <scope>source.js</scope>
+    <scope>source.js, source.jsx, source.ts, source.tsx</scope>
     <!-- Optional: Description to show in the menu -->
     <description>Gulpfile boilerplate</description>
 </snippet>

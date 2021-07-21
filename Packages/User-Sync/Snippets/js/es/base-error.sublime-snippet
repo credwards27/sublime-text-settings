@@ -25,7 +25,7 @@ ${2:export ${1:default }}class BaseError extends Error {
     <!-- Optional: Tab trigger to activate the snippet -->
     <tabTrigger>///esberr</tabTrigger>
     <!-- Optional: Scope the tab trigger will be active in -->
-    <scope>source.js, source.embedded.js.html</scope>
+    <scope>source.js, source.jsx, source.ts, source.tsx, source.embedded.js.html</scope>
     <!-- Optional: Description to show in the menu -->
     <description>ESNext BaseError class</description>
 </snippet>

@@ -19,7 +19,7 @@ set ${2:alias}(${5:val}) {
     <!-- Optional: Tab trigger to activate the snippet -->
     <tabTrigger>///gs</tabTrigger>
     <!-- Optional: Scope the tab trigger will be active in -->
-    <scope>source.js, source.embedded.js.html</scope>
+    <scope>source.js, source.jsx, source.ts, source.tsx, source.embedded.js.html</scope>
     <!-- Optional: Description to show in the menu -->
     <description>JS class getter/setter declaration</description>
 </snippet>
