@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+ref={(r) => { this.${1:_elem} = r; }}
+]]></content>
+    <!-- Optional: Tab trigger to activate the snippet -->
+    <tabTrigger>///ref</tabTrigger>
+    <!-- Optional: Scope the tab trigger will be active in -->
+    <scope>source.jsx meta.tag.attributes.js, source.tsx meta.tag.attributes.js</scope>
+    <!-- Optional: Description to show in the menu -->
+    <description>React component JSX ref property</description>
+</snippet>
