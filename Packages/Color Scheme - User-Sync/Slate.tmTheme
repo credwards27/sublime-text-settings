@@ -191,7 +191,34 @@
 			<key>name</key>
 			<string>JavaScript Classes</string>
 			<key>scope</key>
-			<string>source.js support.class, source.js support.constant, source.js entity.name.class, source.js entity.name.type.class, source.js variable.function.constructor, source.js variable.other.class</string>
+			<string>
+				meta.class.js support.class,
+				
+				source.js support.constant,
+				source.jsx support.constant,
+				source.ts support.constant,
+				source.tsx support.constant,
+				
+				source.js entity.name.class,
+				source.jsx entity.name.class,
+				source.ts entity.name.class,
+				source.tsx entity.name.class,
+				
+				source.js entity.name.type.class,
+				source.jsx entity.name.type.class,
+				source.ts entity.name.type.class,
+				source.tsx entity.name.type.class,
+				
+				source.js variable.function.constructor,
+				source.jsx variable.function.constructor,
+				source.ts variable.function.constructor,
+				source.tsx variable.function.constructor,
+				
+				source.js variable.other.class,
+				source.jsx variable.other.class,
+				source.ts variable.other.class,
+				source.tsx variable.other.class
+			</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
