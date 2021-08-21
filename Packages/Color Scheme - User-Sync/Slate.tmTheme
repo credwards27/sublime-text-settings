@@ -191,7 +191,7 @@
 			<key>name</key>
 			<string>JavaScript Classes</string>
 			<key>scope</key>
-			<string>source.js support.class, source.js entity.name.class, source.js entity.name.type.class, source.js variable.function.constructor, source.js variable.other.class</string>
+			<string>source.js support.class, source.js support.constant, source.js entity.name.class, source.js entity.name.type.class, source.js variable.function.constructor, source.js variable.other.class</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -312,7 +312,7 @@
 			<key>name</key>
 			<string>Unquoted Object Keys</string>
 			<key>scope</key>
-			<string>string.unquoted.label</string>
+			<string>string.unquoted, string.unquoted.label</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
