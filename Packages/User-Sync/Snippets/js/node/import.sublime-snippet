@@ -7,5 +7,5 @@ import ${1:dep} from "${2}";${0}
     <!-- Optional: Scope the tab trigger will be active in -->
     <scope>source.js, source.jsx, source.ts, source.tsx</scope>
     <!-- Optional: Description to show in the menu -->
-    <description>Node require() call</description>
+    <description>ES6 import call</description>
 </snippet>
