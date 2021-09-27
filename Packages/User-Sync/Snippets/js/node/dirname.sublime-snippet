@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+${1:const }__dirname = new URL(".", import.meta.url).pathname.replace(/\/+\$/, ""),
+]]></content>
+    <!-- Optional: Tab trigger to activate the snippet -->
+    <tabTrigger>///dirname</tabTrigger>
+    <!-- Optional: Scope the tab trigger will be active in -->
+    <scope>source.js, source.jsx, source.ts, source.tsx</scope>
+    <!-- Optional: Description to show in the menu -->
+    <description>Node __dirname polyfill for ES6 modules</description>
+</snippet>

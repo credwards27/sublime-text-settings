@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+${1:const }__filename = new URL("", import.meta.url).pathname,
+]]></content>
+    <!-- Optional: Tab trigger to activate the snippet -->
+    <tabTrigger>///filename</tabTrigger>
+    <!-- Optional: Scope the tab trigger will be active in -->
+    <scope>source.js, source.jsx, source.ts, source.tsx</scope>
+    <!-- Optional: Description to show in the menu -->
+    <description>Node __filename polyfill for ES6 modules</description>
+</snippet>
