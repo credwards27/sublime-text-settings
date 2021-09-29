@@ -222,7 +222,12 @@
 				source.js variable.other.class,
 				source.jsx variable.other.class,
 				source.ts variable.other.class,
-				source.tsx variable.other.class
+				source.tsx variable.other.class,
+				
+				source.js meta.function-call.constructor variable,
+				source.jsx meta.function-call.constructor variable,
+				source.ts meta.function-call.constructor variable,
+				source.tsx meta.function-call.constructor variable
 			</string>
 			<key>settings</key>
 			<dict>
