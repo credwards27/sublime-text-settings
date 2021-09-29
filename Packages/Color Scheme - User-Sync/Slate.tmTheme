@@ -199,10 +199,10 @@
 				source.ts support.constant,
 				source.tsx support.constant,
 				
-				source.js support.class,
-				source.jsx support.class,
-				source.ts support.class,
-				source.tsx support.class,
+				source.js support.class.builtin,
+				source.jsx support.class.builtin,
+				source.ts support.class.builtin,
+				source.tsx support.class.builtin,
 				
 				source.js entity.name.class,
 				source.jsx entity.name.class,
@@ -222,7 +222,23 @@
 				source.js variable.other.class,
 				source.jsx variable.other.class,
 				source.ts variable.other.class,
-				source.tsx variable.other.class,
+				source.tsx variable.other.class
+			</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#b88288</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>JavaScript classes (non-constructor calls) and 'this' keyword</string>
+			<key>scope</key>
+			<string>
+				source.js support.class,
+				source.jsx support.class,
+				source.ts support.class,
+				source.tsx support.class,
 				
 				source.js meta.function-call.constructor variable,
 				source.jsx meta.function-call.constructor variable,
@@ -232,7 +248,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#b88288</string>
+				<string>#c95e60</string>
 			</dict>
 		</dict>
 		<dict>
