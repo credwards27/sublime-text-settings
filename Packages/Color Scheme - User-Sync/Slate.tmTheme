@@ -199,6 +199,11 @@
 				source.ts support.constant,
 				source.tsx support.constant,
 				
+				source.js support.class,
+				source.jsx support.class,
+				source.ts support.class,
+				source.tsx support.class,
+				
 				source.js entity.name.class,
 				source.jsx entity.name.class,
 				source.ts entity.name.class,
