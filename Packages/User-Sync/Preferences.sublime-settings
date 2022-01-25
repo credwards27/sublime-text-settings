@@ -32,7 +32,6 @@
         "~*",
         "*.sublime-workspace"
     ],
-	"font_face": "Consolas",
 	"font_size": 11,
 	"ignored_packages":
 	[
