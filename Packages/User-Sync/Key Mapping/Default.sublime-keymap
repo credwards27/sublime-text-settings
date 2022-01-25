@@ -45,5 +45,13 @@
             { "key": "following_text",      "operator": "regex_match",    "operand": "(?!/).*",        "match_all": true },
             { "key": "is_javadoc",          "operator": "equal",          "operand": true,             "match_all": true }
         ]
+    },
+    
+    {
+        "keys": [ ":" ],
+        "command": "insert",
+        "args": {
+            "characters": ":"
+        }
     }
 ]
