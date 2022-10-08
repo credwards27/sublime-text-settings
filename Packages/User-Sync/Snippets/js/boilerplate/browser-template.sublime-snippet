@@ -9,9 +9,9 @@
 })(window,${3: window.jQuery, }void 0);
 ]]></content>
     <!-- Optional: Tab trigger to activate the snippet -->
-    <tabTrigger>///js</tabTrigger>
+    <tabTrigger>///jsb</tabTrigger>
     <!-- Optional: Scope the tab trigger will be active in -->
     <scope>source.js, source.jsx, source.ts, source.tsx, source.embedded.js.html</scope>
     <!-- Optional: Description to show in the menu -->
-    <description>JS file boilerplate</description>
+    <description>JS file browser boilerplate</description>
 </snippet>
