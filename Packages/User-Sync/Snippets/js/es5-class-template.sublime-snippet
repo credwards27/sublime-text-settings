@@ -35,9 +35,9 @@ ${1:MyClass}.prototype = {
 //
 ]]></content>
     <!-- Optional: Tab trigger to activate the snippet -->
-    <tabTrigger>///class</tabTrigger>
+    <tabTrigger>///es5class</tabTrigger>
     <!-- Optional: Scope the tab trigger will be active in -->
     <scope>source.js, source.jsx, source.ts, source.tsx, source.embedded.js.html</scope>
     <!-- Optional: Description to show in the menu -->
-    <description>JS class template (vanilla)</description>
+    <description>JS class template (ES5)</description>
 </snippet>

@@ -29,7 +29,7 @@ ${3:export ${2:default }}class ${4:ClassName} ${6:extends ${5:ParentClassName} }
 }
 ]]></content>
     <!-- Optional: Tab trigger to activate the snippet -->
-    <tabTrigger>///esclass</tabTrigger>
+    <tabTrigger>///class</tabTrigger>
     <!-- Optional: Scope the tab trigger will be active in -->
     <scope>source.js, source.jsx, source.ts, source.tsx, source.embedded.js.html</scope>
     <!-- Optional: Description to show in the menu -->
