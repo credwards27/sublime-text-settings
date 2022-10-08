@@ -8,5 +8,5 @@ ${1:const }__filename = fileURLToPath(import.meta.url),
     <!-- Optional: Scope the tab trigger will be active in -->
     <scope>source.js, source.jsx, source.ts, source.tsx</scope>
     <!-- Optional: Description to show in the menu -->
-    <description>Node __filename polyfill for ES6 modules (don't forget `import { fileURLToPath } from "url";`)</description>
+    <description>Node __filename polyfill for ES6 modules (don't forget `import { fileURLToPath } from "node:url";`)</description>
 </snippet>
