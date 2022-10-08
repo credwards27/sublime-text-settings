@@ -4,7 +4,9 @@
     
     ${1:Description of file.}
 */
-
+${2:
+"use strict";
+}
 ]]></content>
     <!-- Optional: Tab trigger to activate the snippet -->
     <tabTrigger>///jsh</tabTrigger>
