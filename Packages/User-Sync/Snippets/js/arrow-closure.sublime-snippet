@@ -1,0 +1,14 @@
+<snippet>
+    <content><![CDATA[
+((${1:params}) => {
+    return () => {${0}
+    };
+})(${2:args})
+]]></content>
+    <!-- Optional: Tab trigger to activate the snippet -->
+    <tabTrigger>///aclose</tabTrigger>
+    <!-- Optional: Scope the tab trigger will be active in -->
+    <scope>source.js, source.jsx, source.ts, source.tsx, source.embedded.js.html</scope>
+    <!-- Optional: Description to show in the menu -->
+    <description>JS arrow closure</description>
+</snippet>
