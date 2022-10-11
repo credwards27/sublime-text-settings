@@ -16,9 +16,9 @@
 /* Global system controller.
     \$ - Localized reference active jQuery instance at script load time.
 */
-var ${3:mySystem} = ${3:mySystem} || (function(\$) {
+let ${3:mySystem} = ${3:mySystem} || (function(\$) {
     // Create system instance
-    var sys = function(args) { return new sys.fn.init(args); };
+    let sys = function(args) { return new sys.fn.init(args); };
     
     // Create system controller prototype (and set alias)
     sys.fn = sys.prototype = {

@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-for (${1:var }${2:k} in ${3:obj}) {
+for (${1:let }${2:k} in ${3:obj}) {
     if (!${3}.hasOwnProperty(${2})) {${4: }continue;${5: }}${0}
 }
 ]]></content>
