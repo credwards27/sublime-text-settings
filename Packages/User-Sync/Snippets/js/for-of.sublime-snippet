@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+for (${1:let }${2:val} of ${3:obj}) {${0}
+}
+]]></content>
+    <!-- Optional: Tab trigger to activate the snippet -->
+    <tabTrigger>///forof</tabTrigger>
+    <!-- Optional: Scope the tab trigger will be active in -->
+    <scope>source.js, source.jsx, source.ts, source.tsx, source.embedded.js.html</scope>
+    <!-- Optional: Description to show in the menu -->
+    <description>JS for...of loop boilerplate</description>
+</snippet>
