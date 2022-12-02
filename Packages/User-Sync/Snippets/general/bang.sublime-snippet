@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+#!/usr/bin/env${0: executable}
+
+
+]]></content>
+    <!-- Optional: Tab trigger to activate the snippet -->
+    <tabTrigger>///bang</tabTrigger>
+    <!-- Optional: Description to show in the menu -->
+    <description>Shebang header for executable files</description>
+</snippet>
