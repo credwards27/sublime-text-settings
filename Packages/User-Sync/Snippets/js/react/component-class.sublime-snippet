@@ -1,0 +1,36 @@
+<snippet>
+    <content><![CDATA[
+// Dependencies.
+import React, { Component } from "react";
+
+/* ${1:Component description.}
+*/
+export default class ${2:ClassName} extends Component {
+    ${3:/* Constructor for ${2:ClassName}.
+        
+        props - Component properties.
+    */
+    constructor(props) {
+        super(props);
+    \}
+    
+    }${4:/* Component mount handler.
+    */
+    componentDidMount() {\}
+    
+    }${5:/* Component unmount handler.
+    */
+    componentWillUnmount() {\}
+    
+    }/* Renders the component.
+    */
+    render() {${0}}
+}
+]]></content>
+    <!-- Optional: Tab trigger to activate the snippet -->
+    <tabTrigger>///rccomp</tabTrigger>
+    <!-- Optional: Scope the tab trigger will be active in -->
+    <scope>source.js, source.jsx, source.ts, source.tsx, source.embedded.js.html</scope>
+    <!-- Optional: Description to show in the menu -->
+    <description>React component class boilerplate</description>
+</snippet>
