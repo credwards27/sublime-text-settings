@@ -136,7 +136,7 @@
 			<key>name</key>
 			<string>Keywords</string>
 			<key>scope</key>
-			<string>keyword</string>
+			<string>keyword, entity.name.tag.documentation</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
