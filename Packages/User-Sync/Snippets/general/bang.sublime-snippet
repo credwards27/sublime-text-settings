@@ -1,8 +1,7 @@
 <snippet>
     <content><![CDATA[
-#!/usr/bin/env${0: executable}
-
-
+#!/usr/bin/env${1: executable}
+${0}
 ]]></content>
     <!-- Optional: Tab trigger to activate the snippet -->
     <tabTrigger>///bang</tabTrigger>
