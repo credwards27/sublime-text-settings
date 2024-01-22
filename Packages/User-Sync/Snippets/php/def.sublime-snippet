@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+${3:!defined('${1:NAME}') && }define('${1:NAME}', ${2:value});$0
+]]></content>
+    <!-- Optional: Tab trigger to activate the snippet -->
+    <tabTrigger>///def</tabTrigger>
+    <!-- Optional: Scope the tab trigger will be active in -->
+    <scope>source.php</scope>
+    <!-- Optional: Description to show in the menu -->
+    <description>PHP define() with optional check</description>
+</snippet>
